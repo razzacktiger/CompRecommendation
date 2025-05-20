@@ -1,0 +1,185 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+# Usually these files are auto-generated first before manually editing them
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+notebooks/.ipynb_checkpoints/ # Specific to your planned structure
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Environments
+.env
+.venv
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# JetBrains / PyCharm
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Eclipse
+.project
+.pydevproject
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Temporary files
+*.swp
+*~
+*.tmp
+*.bak
+*.patch
+
+# Data files - Be cautious with large datasets!
+# If your raw/processed data is very large (>> 20-50MB),
+# consider using Git LFS (Large File Storage) or storing them outside the repo.
+# data/raw/some_large_file.json
+# data/processed/some_large_processed_file.csv
+# For this project, the 21.4MB initial JSON might be okay, but monitor its size.
+# If you create very large files, add them here, e.g.:
+# data/large_models/
+# data/large_datasets/
+
+# Model files - these can become very large!
+# Add specific patterns if you save models locally and they are too big for Git
+# *.pt
+# *.pth
+# *.h5
+# *.keras
+# *.pb
+# *.onnx
+# saved_models/
+# model_checkpoints/
+
+# Secrets & Credentials - NEVER commit these!
+# Create a template file (e.g., `config.example.yml`) and add the actual config file to .gitignore
+credentials.json
+secrets.py
+*.pem
+*.key
+*.env.*
+!*.env.example 
