@@ -2,42 +2,60 @@
 import time
 import json
 import pandas as pd
+import os
 from geopy.geocoders import Nominatim
 from geopy.exc import GeocoderTimedOut, GeocoderUnavailable
-import config  # For GEOCODING_CACHE_FILE
+import config
 
 # --- Geocoding Setup ---
 geolocator = Nominatim(user_agent="comp_recommender_app_v1")
 
 
-def load_geocoding_cache():
-    """Loads the geocoding cache from a JSON file."""
+def load_geocoding_cache(file_name=config.GEOCODING_CACHE_FILE):
+    """Loads the geocoding cache from a JSON file located within src/.
+
+    Args:
+        file_name (str, optional): The base name of the cache file.
+                                     Defaults to config.GEOCODING_CACHE_FILE.
+                                     The path is constructed relative to config.py's location.
+    """
+    base_src_dir = os.path.dirname(config.__file__)
+    full_file_path = os.path.join(base_src_dir, file_name)
     try:
-        with open(config.GEOCODING_CACHE_FILE, 'r') as f:
+        with open(full_file_path, 'r') as f:
             cache = json.load(f)
         print(
-            f"Loaded geocoding cache from {config.GEOCODING_CACHE_FILE} with {len(cache)} entries.")
+            f"Loaded geocoding cache from {full_file_path} with {len(cache)} entries.")
         return cache
     except FileNotFoundError:
         print(
-            f"Geocoding cache file ({config.GEOCODING_CACHE_FILE}) not found. Starting with an empty cache.")
+            f"Geocoding cache file ({full_file_path}) not found. Starting with an empty cache.")
         return {}
     except json.JSONDecodeError:
         print(
-            f"Error decoding JSON from {config.GEOCODING_CACHE_FILE}. Starting with an empty cache.")
+            f"Error decoding JSON from {full_file_path}. Starting with an empty cache.")
         return {}
 
 
-def save_geocoding_cache(cache):
-    """Saves the geocoding cache to a JSON file."""
+def save_geocoding_cache(cache, file_name=config.GEOCODING_CACHE_FILE):
+    """Saves the geocoding cache to a JSON file located within src/.
+
+    Args:
+        cache (dict): The geocoding cache dictionary to save.
+        file_name (str, optional): The base name of the cache file.
+                                     Defaults to config.GEOCODING_CACHE_FILE.
+                                     The path is constructed relative to config.py's location.
+    """
+    base_src_dir = os.path.dirname(config.__file__)
+    full_file_path = os.path.join(base_src_dir, file_name)
     try:
-        with open(config.GEOCODING_CACHE_FILE, 'w') as f:
+        with open(full_file_path, 'w') as f:
             json.dump(cache, f, indent=4)
         print(
-            f"Saved geocoding cache to {config.GEOCODING_CACHE_FILE} with {len(cache)} entries.")
+            f"Saved geocoding cache to {full_file_path} with {len(cache)} entries.")
     except IOError as e:
         print(
-            f"Error saving geocoding cache to {config.GEOCODING_CACHE_FILE}: {e}")
+            f"Error saving geocoding cache to {full_file_path}: {e}")
 
 
 def geocode_address(address_str, cache):

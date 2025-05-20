@@ -5,6 +5,9 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import classification_report, average_precision_score, precision_recall_fscore_support
+from sklearn.linear_model import LogisticRegression
+from sklearn.neighbors import KNeighborsClassifier
+from imblearn.over_sampling import SMOTE
 
 import xgboost as xgb
 import lightgbm as lgb
@@ -12,14 +15,23 @@ import lightgbm as lgb
 # Define a standard set of features to be used by models
 # This could also be moved to config.py if it gets very complex or is shared more widely
 DEFAULT_FEATURE_COLUMNS = [
-    'days_since_sale', 'prop_sold_after_eff', 'bed_diff', 'bath_diff',
-    'age_diff', 'room_diff', 'struct_type_match', 'style_match',
-    'city_match', 'fsa_match', 'distance_to_subject',
-    # Missingness indicators for imputed diffs
-    'bed_diff_missing', 'room_diff_missing',
-    'distance_to_subject_missing', 'bath_diff_missing', 'age_diff_missing',
-    # Interaction/Polynomial Features
-    'distance_squared', 'age_diff_squared', 'dist_X_age_diff', 'fsa_X_days_since_sale'
+    'distance_to_subject',
+    'distance_to_subject_missing',
+    'days_since_sale',
+    'prop_sold_after_eff',
+    'age_diff',
+    'age_diff_missing',
+    'bath_diff',
+    'bath_diff_missing',
+    'bed_diff',
+    'bed_diff_missing',
+    # 'room_diff', # Formally removed as models assign it no importance
+    # 'room_diff_missing', # Formally removed as models assign it no importance
+    'struct_type_match',
+    'fsa_match'
+    # Other features confirmed as not used or having low/no impact:
+    # style_match, city_match, distance_squared, age_diff_squared,
+    # dist_X_age_diff, fsa_X_days_since_sale
 ]
 
 
@@ -66,14 +78,54 @@ def train_evaluate_model(df, model_name='XGBoost', feature_columns=None, random_
     print("Distribution of target in y_test:")
     print(y_test.value_counts(normalize=True) * 100)
 
+    # Prepare data for scaling and fitting - potentially apply SMOTE for KNN
+    X_train_to_scale = X_train
+    y_train_for_fit = y_train
+
+    counts = y_train.value_counts()  # Original y_train counts
+
+    if model_name.lower() == 'knn':
+        print("\nAttempting SMOTE for KNN training data...")
+        # Count of positive class (1) in original y_train
+        minority_class_count = counts.get(1, 0)
+
+        if minority_class_count < 2:
+            print(
+                f"Warning: Minority class count in training set ({minority_class_count}) is too small for SMOTE. Using original training data for KNN.")
+            # X_train_to_scale and y_train_for_fit remain as original X_train, y_train
+        else:
+            smote_k_neighbors = min(5, minority_class_count - 1)
+            if smote_k_neighbors < 1:  # Should ideally not be reached if minority_class_count >= 2
+                print(
+                    f"Warning: Calculated k_neighbors for SMOTE is {smote_k_neighbors}. SMOTE requires k_neighbors >= 1. Using original data.")
+            else:
+                print(
+                    f"Applying SMOTE with k_neighbors={smote_k_neighbors} for KNN.")
+                smote = SMOTE(random_state=random_state,
+                              k_neighbors=smote_k_neighbors)
+                try:
+                    X_train_resampled, y_train_resampled = smote.fit_resample(
+                        X_train, y_train)
+                    print(
+                        f"Shape of X_train after SMOTE: {X_train_resampled.shape}")
+                    print("Distribution of target in y_train after SMOTE:")
+                    print(pd.Series(y_train_resampled).value_counts(
+                        normalize=True) * 100)
+                    X_train_to_scale = X_train_resampled
+                    y_train_for_fit = y_train_resampled
+                except ValueError as e:
+                    print(
+                        f"Error during SMOTE: {e}. Using original training data for KNN.")
+
     print("\nScaling features using StandardScaler...")
     scaler = StandardScaler()
-    X_train_scaled = scaler.fit_transform(X_train)
-    X_test_scaled = scaler.transform(X_test)
+    # Fit on X_train_to_scale (original or resampled)
+    X_train_scaled = scaler.fit_transform(X_train_to_scale)
+    X_test_scaled = scaler.transform(X_test)  # Transform original X_test
 
-    # Calculate scale_pos_weight for handling class imbalance
-    counts = y_train.value_counts()
-    if len(counts) < 2 or counts[1] == 0:
+    # Calculate scale_pos_weight for handling class imbalance (based on original y_train counts)
+    # This is primarily for XGBoost/LightGBM if SMOTE is not used for them.
+    if len(counts) < 2 or counts.get(1, 0) == 0:
         print("Warning: Positive class (1) has zero samples in the training set after split, or only one class present.")
         print("Cannot calculate scale_pos_weight. Using default of 1.")
         scale_pos_weight = 1
@@ -100,12 +152,24 @@ def train_evaluate_model(df, model_name='XGBoost', feature_columns=None, random_
             random_state=random_state,
             n_estimators=100
         )
+    elif model_name.lower() == 'logisticregression':
+        print("\nTraining Logistic Regression model...")
+        model_instance = LogisticRegression(
+            solver='liblinear',
+            class_weight='balanced',
+            random_state=random_state,
+            max_iter=1000
+        )
+    elif model_name.lower() == 'knn':
+        print("\nTraining KNN model...")
+        model_instance = KNeighborsClassifier(n_neighbors=5)
     else:
         print(
-            f"Unsupported model type: {model_name}. Supported: XGBoost, LightGBM. Skipping.")
+            f"Unsupported model type: {model_name}. Supported: XGBoost, LightGBM, LogisticRegression, KNN. Skipping.")
         return
 
-    model_instance.fit(X_train_scaled, y_train)
+    # Fit with potentially SMOTEd y_train_for_fit
+    model_instance.fit(X_train_scaled, y_train_for_fit)
     print(f"{model_name} model training complete.")
 
     print(
@@ -124,8 +188,14 @@ def train_evaluate_model(df, model_name='XGBoost', feature_columns=None, random_
         importances = pd.Series(
             model_instance.feature_importances_, index=X.columns)
         print(importances.sort_values(ascending=False))
+    elif hasattr(model_instance, 'coef_'):
+        importances = pd.Series(model_instance.coef_[0], index=X.columns)
+        print(importances.abs().sort_values(ascending=False))
+        print("\n(Note: For Logistic Regression, these are coefficient magnitudes)")
+    elif model_name.lower() == 'knn':
+        print("KNN does not provide direct feature importances in the same way as other models.")
     else:
-        print("Model does not support feature_importances_ attribute.")
+        print("Model does not support feature_importances_ or coef_ attribute.")
 
     # --- Threshold Tuning ---
     print(

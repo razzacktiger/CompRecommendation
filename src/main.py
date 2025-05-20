@@ -18,15 +18,16 @@ def main():
     print("Starting the Appraisal Recommendation Pipeline...")
 
     # 1. Load Data
-    appraisals_data = data_loader.load_appraisals_data(config.RAW_DATA_FILE)
+    appraisals_data = data_loader.load_appraisals_data()
     if appraisals_data is None:
         print("Failed to load data. Exiting.")
         return
 
     # 2. Initial EDA (Optional - can be toggled)
-    # data_loader.perform_initial_eda(appraisals_data) # Comment out if not needed every run
+    # data_loader.perform_initial_eda(appraisals_data)
 
     # 3. Load Geocoding Cache
+    # Now uses default file_name from config, path constructed within the function
     geocoding_cache = geocoding_utils.load_geocoding_cache()
 
     # 4. Feature Engineering
@@ -35,6 +36,7 @@ def main():
         appraisals_data, geocoding_cache)
 
     # 5. Save updated geocoding cache
+    # Now uses default file_name from config, path constructed within the function
     geocoding_utils.save_geocoding_cache(geocoding_cache)
 
     if df_features.empty:
@@ -50,6 +52,13 @@ def main():
 
     # LightGBM
     model_pipeline.train_evaluate_model(df_features, model_name='LightGBM')
+
+    # Logistic Regression
+    model_pipeline.train_evaluate_model(
+        df_features, model_name='LogisticRegression')
+
+    # KNN
+    model_pipeline.train_evaluate_model(df_features, model_name='KNN')
 
     print("\nAppraisal Recommendation Pipeline finished.")
 

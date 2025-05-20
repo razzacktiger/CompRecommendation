@@ -1,59 +1,60 @@
 '''Functions for loading and performing initial EDA on the dataset.'''
 import json
 import pandas as pd
+import os
 import config
 import utils
 
 
-def load_appraisals_data(file_path=config.RAW_DATA_FILE):
-    """Loads the appraisals dataset from a JSON file."""
-    print(f"Loading {file_path}...")
+def load_appraisals_data(file_name=config.RAW_DATA_FILE):
+    """Loads the appraisals dataset from a JSON file located within src/.
+
+    Args:
+        file_name (str, optional): The base name of the data file.
+                                     Defaults to config.RAW_DATA_FILE.
+                                     The path is constructed relative to config.py's location.
+    """
+    # Construct path relative to the directory of config.py (i.e., src/)
+    # This ensures it works correctly whether called from src/main.py or a script in root.
+    base_src_dir = os.path.dirname(config.__file__)
+    full_file_path = os.path.join(base_src_dir, file_name)
+
+    print(f"Loading {full_file_path}...")
     try:
-        with open(file_path, 'r') as f:
+        with open(full_file_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
 
-        # --- DEBUGGING ---
-        print(f"Type of data loaded: {type(data)}")
-        if isinstance(data, dict):
-            print(f"Data is a dictionary. Keys: {list(data.keys())}")
-            # Attempt to access a common key if it's a dict of length 1
-            if len(data) == 1:
-                first_key = list(data.keys())[0]
-                print(
-                    f"First key is '{first_key}'. Attempting to use data[first_key].")
-                # POTENTIAL FIX: If the actual list is nested, reassign data
-                if first_key == 'appraisals':  # Be specific if we know the key
-                    data = data[first_key]
-                    print(
-                        f"Reassigned data to content of '{first_key}'. New type: {type(data)}")
-                else:
-                    print(
-                        f"Warning: Dictionary has one key, but it's not 'appraisals'. Check data structure.")
-        elif isinstance(data, list):
-            print(f"Data is a list. Number of items: {len(data)}")
-        # --- END DEBUGGING ---
-
-        # Original length check, might be misleading if data is a dict
-        # print(f"Loaded {len(data)} appraisals.")
-
-        # We expect data to be a list of appraisals at this point.
-        # If it was a dict and we reassigned it above, this len will be correct.
-        if isinstance(data, list):
+        # If the loaded data is a dictionary and has an 'appraisals' key,
+        # assume the actual list of appraisals is nested there.
+        if isinstance(data, dict) and 'appraisals' in data:
+            data = data['appraisals']
             print(
-                f"Loaded {len(data)} appraisals (after potential dict unwrapping).")
+                "Note: Data was unwrapped from an 'appraisals' key in the JSON structure.")
+
+        if isinstance(data, list):
+            print(f"Successfully loaded {len(data)} appraisals.")
             return data
         else:
-            print(
-                "Warning: Loaded data is not a list as expected. Returning as is, but this might cause issues.")
-            print(
-                f"Number of top-level elements in loaded data: {len(data) if hasattr(data, '__len__') else 'N/A (not a sequence)'}")
-            return data  # Still return it, but with a warning
+            # This case should be rare if the primary structure is a list or dict with 'appraisals'
+            error_msg = f"Error: Loaded data from {full_file_path} is not a list of appraisals as expected. Type found: {type(data)}."
+            if hasattr(data, '__len__'):
+                error_msg += f" Number of top-level elements: {len(data)}."
+            else:
+                error_msg += " Data does not have a defined length."
+            print(error_msg)
+            # Decide on behavior: return None, raise error, or return data with warning
+            # For now, returning None as the original error paths did.
+            return None
 
     except FileNotFoundError:
-        print(f"Error: The file {file_path} was not found.")
+        print(f"Error: The file {full_file_path} was not found.")
         return None
     except json.JSONDecodeError:
-        print(f"Error: The file {file_path} is not a valid JSON file.")
+        print(f"Error: The file {full_file_path} is not a valid JSON file.")
+        return None
+    except Exception as e:  # Catch other potential errors during file/JSON processing
+        print(
+            f"An unexpected error occurred while loading {full_file_path}: {e}")
         return None
 
 
