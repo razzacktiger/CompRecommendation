@@ -1,0 +1,89 @@
+subject_id,subject_index,condition,age_years,age_uncertainty,effective_date,structure_type,lot_size_sqft,gla_sqft,bedrooms_raw,bathrooms_raw,municipality_district,has_lot_size_uncertainty,has_gla_uncertainty
+0,0,Average,49.0,False,Apr/11/2025,Townhouse,,1044.0,3,1:1,Kingston,False,False
+1,1,Average,14.0,False,Apr/17/2025,Detached,72745.0,1500.0,3,2:1,Halifax Regional Municipality - West Chezzetcook,False,False
+2,2,Average,42.0,False,May/01/2025,Detached,20174.0,3000.0,4,2:1,"Township of North Dumfries, Region of Waterloo",False,False
+3,3,Good,13.0,False,Apr/15/2025,Detached,54450.0,1283.0,2,3:0,"North Grenville, Ontario",False,False
+4,4,Average,47.0,False,Apr/17/2025,Condominium,,1530.0,3,2:0,Halifax Regional Municipality - Halifax,False,False
+5,5,Average,40.0,False,Apr/16/2025,Detached,6825.0,1746.0,3,2:1,"Halifax Regional Municipality - Cole Harbour, Dartmouth",False,False
+6,6,Average,84.0,False,Apr/16/2025,Semi Detached,3694.0,1602.0,2,3:0,"City of Toronto, Region of Leaside (C11)",False,False
+7,7,Good,4.0,False,Apr/14/2025,Townhouse,3358.0,1751.0,3,2F 1H,"Stittsville, City of Ottawa",False,False
+8,8,Good,19.0,False,Apr/15/2025,Condominium,,1523.0,2,2:0,Halifax Regional Municipality - Halifax,False,False
+9,9,Good,6.0,False,Apr/14/2025,Detached,5909.436,2456.0,4,2:1,"Chestermere, AB / Kinniburg",False,False
+10,10,Excellent,1.0,False,Apr/17/2025,Detached,42495.0,3332.0,5,2:1,Halifax Regional Municipality - Seabright,False,False
+11,11,Average,25.0,False,Apr/14/2025,Semi Detached,2619.0,1525.0,3,3:1,"Region of York, City of Vaughan",False,False
+12,12,Average,43.0,False,Apr/15/2025,Detached,26700.0,2895.0,4,2:2,Halifax Regional Municipality - Bedford,False,False
+13,13,Average,15.0,False,Apr/10/2025,Detached,5663.0,1678.0,3,2:0,Kingston,False,False
+14,14,Good,43.0,False,Apr/10/2025,Detached,33943.0,2264.0,4,2:1,Halifax Regional Municipality - Hammonds Plains,False,False
+15,15,Good,23.0,False,Apr/09/2025,Detached,5987.0,2530.0,3,3:1,"Stonebridge, City of Ottawa",False,False
+16,16,Average,57.0,False,Apr/14/2025,Detached,438082.92000000004,2149.0,4,3:1,"Region of York, Town of Whitchurch-Stouffville",False,False
+17,17,Average,135.0,False,Apr/10/2025,Townhouse,1742.0,1840.0,4,1:0,Kingston,False,False
+18,18,Average,32.0,False,Apr/15/2025,Detached,3250.0,1354.0,3,1:1,Halifax Regional Municipality - Lower Sackville,False,False
+19,19,Good,9.0,False,Apr/10/2025,Detached,4058.028,1573.4,3,2F 1H,"Calgary, AB / Cornerstone",False,False
+20,20,Average,73.0,False,Mar/24/2025,Detached,4639.284,839.592,2,2F,"Calgary AB, Parkdale",False,False
+21,21,Good,7.0,False,Apr/07/2025,Detached,6512.219999999999,2974.0,4,2 Full/1Half,"Edmonton, AB - Summerside",False,False
+22,22,Good,9.0,False,Apr/14/2025,Detached,3601.0,2956.0,4,3:1,"Avalon West, City of Ottawa",False,False
+23,23,Good,1.0,False,Apr/07/2025,High Rise Apartment,,1109.0,2,2F,"Calgary, AB / East Village",False,False
+24,24,Good,8.0,False,Apr/04/2025,Detached,3552.12,1580.0,3,2 Full/1Half,"Edmonton, AB - Allard",False,False
+25,25,Good,9.0,False,Apr/08/2025,Townhouse,1868.0,1587.0,3,3:1,"Chapel Hill, City of Ottawa",False,False
+26,26,Average,74.0,False,Apr/07/2025,Detached,6738.263999999999,968.76,2,2F,"Calgary AB, Renfrew",False,False
+27,27,Good,17.0,False,Apr/07/2025,Low Rise Apartment,,1039.0,2,2F,"Calgary, AB / Arbour Lake",False,False
+28,28,Good,12.0,False,Apr/16/2025,Detached,8191.4039999999995,2809.404,4,3F 1H,"Calgary AB, Rocky Ridge",False,False
+29,29,Good,8.0,False,Apr/07/2025,Condominium,,789.0,2,2:0,"Calgary, AB / Auburn Bay",False,False
+30,30,Average,17.0,False,Apr/09/2025,Detached,12600.0,1094.0,3,2:0,Queensland,False,False
+31,31,Average,21.0,False,Apr/08/2025,High Rise Apartment,,1176.0,2,2:0,"City of Toronto, Region of Waterfront Communities (C01)",False,False
+32,32,Average,22.0,False,Apr/08/2025,Townhouse,3253.0,1334.0,1,3F,City of Ottawa,False,False
+33,33,Average,21.0,False,Apr/09/2025,Detached,33661.0,2010.0,3,2:1,Halifax Regional Municipality - Lake Echo,False,False
+34,34,Excellent,,False,Apr/07/2025,Detached,4929.911999999999,2647.944,5,4F,"Calgary AB, Livingston",False,False
+35,35,Good,21.0,False,Apr/11/2025,Detached,37374.0,1400.0,3,2:0,Halifax Regional Municipality - Head of Jeddore,False,False
+36,36,Average,53.0,False,Apr/09/2025,Detached,15936.0,864.0,3,1:0,LUNENBURG COUNTY - SIMMS SETTLEMENT,False,False
+37,37,Average,25.0,False,Apr/08/2025,Detached,3137.0,1774.0,3,3:1,"Longfields, City of Ottawa",False,False
+38,38,Average,74.0,False,Apr/09/2025,Detached,6300.0,1795.0,3,1:1,Halifax Regional Municipality - Halifax,False,False
+39,39,Good,180.0,False,Apr/08/2025,Duplex,14375.0,3137.0,5,3:2,Dartmouth,False,False
+40,40,Average,30.0,False,Apr/08/2025,Semi Detached,3500.0,1132.0,3,1:1,Eastern Passage,False,False
+41,41,Average,22.0,False,Apr/10/2025,Detached,14232.0,1788.0,3,1:1,Halifax Regional Municipality - Halifax,False,False
+42,42,Average,49.0,False,Apr/14/2025,Detached,6000.0,1637.0,3,1:1,Dartmouth,False,False
+43,43,Average,35.0,False,Apr/16/2025,Townhouse,911.0,1822.0,3,2:1,"Lower Town, City of Ottawa",False,False
+44,44,Average,64.0,False,Apr/23/2025,Detached,8398.0,1109.0,3,1:0,"Elmvale Acres, City of Ottawa",False,False
+45,45,Average,55.0,False,Apr/23/2025,Condominium,,1386.0,3,1:1,Halifax Regional Municipality - Clayton Park,False,False
+46,46,Good,1.0,False,Apr/21/2025,High Rise Apartment,,522.0,1,1F,"Calgary, AB / Eau Claire",False,False
+47,47,Average,8.0,False,Apr/21/2025,Detached,3253.0,1607.0,3,3:1,"Half Moon Bay, City of Ottawa",False,False
+48,48,Average,115.0,False,Apr/21/2025,Duplex,6452.0,2755.0,7,2:0,"City of Welland, Regional Municipality of Niagara",False,False
+49,49,Good,,False,Apr/17/2025,Townhouse,,1634.0,4,2:1,"City of Welland, Regional Municipality of Niagara",False,False
+50,50,Average,85.0,False,Apr/23/2025,Detached,7541.0,1170.0,2,1:1,Halifax Regional Municipality - Dartmouth,False,False
+51,51,Average,36.0,False,Apr/22/2025,Detached,7007.0,1840.0,3+1,2:1,Kingston,False,False
+52,52,Average,140.0,False,Apr/22/2025,Detached,10570.0,1845.0,4,1:1,Chatham-Kent (Dover Township),False,False
+53,53,Average,12.0,False,Apr/16/2025,Detached,3685.0,1488.0,3,3:1,Pittsburgh Township,False,False
+54,54,Average,125.0,False,Apr/24/2025,Triplex,6864.0,2131.0,3,3:1,Kingston,False,False
+55,55,Good,9.0,False,Apr/23/2025,Townhouse,2899.0,1504.0,3,2:1,"Kanata Lakes, City of Ottawa",False,False
+56,56,Good,0.0,False,Apr/24/2025,Townhouse,2780.0,1643.0,4,2:1,"Notting Gate, City of Ottawa",False,False
+57,57,Average,51.0,False,Apr/29/2025,Condominium,,1236.0,3,2,Halifax,False,False
+58,58,Average,3.0,False,Apr/23/2025,Detached,53143.2,1700.0,2,2:0,"Township of Huron East, Region of Huron Perth",False,False
+59,59,Good,4.0,False,Apr/30/2025,Detached,7059.0,1992.0,3,3:0,"Kemptville, ON",False,False
+60,60,Average,125.0,False,Apr/30/2025,Detached,6480.0,2242.0,3,2:1,Gananoque,False,False
+61,61,Average,35.0,False,Apr/25/2025,Condominium,,758.0,2,1:0,Gananoque,False,False
+62,62,Good,10.0,False,Apr/28/2025,Detached,4477.824,2231.68,5,3F,"Calgary, AB / Castleridge",False,False
+63,63,Good,1.0,False,Apr/28/2025,Detached,2744.8199999999997,2115.0,4,3F 1H,"Calgary, AB / Livingston",False,False
+64,64,Good,21.0,False,Apr/30/2025,Detached,3573.6479999999997,1149.0,3,2F,"Calgary, AB / Taradale",False,False
+65,65,Good,27.0,False,Apr/25/2025,Detached,4101.084,1372.0,3,1:1,"Calgary, AB / Hidden Valley",False,False
+66,66,Average,50.0,False,Apr/30/2025,Townhouse,,1178.0,3,1:1,"Region of Peel, City of Brampton",False,False
+67,67,Excellent,18.0,False,Apr/30/2025,Detached,3702.816,2203.0,3,2:1,"Calgary, AB / Evergreen",False,False
+68,68,Average,75.0,False,May/02/2025,Detached,21780.0,1675.0,2,1:1,"Community of Lowbanks, Regional Municipality of Haldimand",False,False
+69,69,Good,22.0,False,Apr/30/2025,Detached,10021.284,1952.0,3,2F 1H,"Langdon, AB",False,False
+70,70,Average,37.0,False,May/02/2025,Detached,217800.0,2773.0,4,2:1,"Community of Lowbanks, Regional Municipality of Haldimand County",False,False
+71,71,Fair,140.0,False,Apr/30/2025,Detached,23046.0,2304.0,4,2:0,10 - 15 (Amherstburg - Malden Centre),False,False
+72,72,Average,53.0,False,May/01/2025,Detached,10014.0,1050.0,2+2,2:0,Kingston,False,False
+73,73,Good,10.0,False,May/01/2025,Detached,9450.792,2061.0,3,3:1,"Langdon, AB / Boulder Creek",False,False
+74,74,Good,3.0,False,May/02/2025,Detached,7524.035999999999,3543.1,3,3F 1H,"Calgary, AB / Springbank Hill",False,False
+75,75,Good,17.0,False,May/02/2025,Detached,4768.0,2352.0,3,3:1,City of Calgary/Copperfield,False,False
+76,76,Good,4.0,False,May/01/2025,,4919.0,2385.0,,,,False,False
+77,77,Average,44.0,False,May/06/2025,Fourplex,6243.12,2002.1039999999998,8,4F,"Calgary, AB  South Calgary",False,False
+78,78,Good,33.0,False,May/06/2025,Detached,5791.0,1290.0,2,3:0,City of Calgary/Douglasdale/Glen,False,False
+79,79,Average,26.0,False,May/06/2025,Detached,3625.0,1451.0,3,1:1,"City of Kitchener, Region of Waterloo",False,False
+80,80,Good,,False,May/05/2025,Condominium,,678.0,2,2:0,City of Greater Kingston,False,False
+81,81,Good,,False,May/05/2025,Condominium,,665.0,2,2:0,City of Kingston,False,False
+82,82,Good,,False,May/05/2025,Condominium,,584.0,1,1:0,City of Greater Kingston,False,False
+83,83,Good,37.0,False,May/05/2025,Detached,8169.875999999999,1746.79,3,2F 1H,"Calgary, AB / Sandstone Valley",False,False
+84,84,Average,46.0,False,Apr/09/2025,Detached,5823.324,1144.0,3,1F 1H,"Airdrie, AB / Meadowbrook",False,False
+85,85,Average,125.0,False,Apr/30/2025,Detached,435600.0,2138.0,5,2:0,"Loyalist Township, County of Lennox and Addington",False,False
+86,86,Average,48.0,False,May/02/2025,Detached,435600.0,2250.0,5,3:0,"Township of East Garafraxa, County of Dufferin",False,False
+87,87,Average,105.0,False,Feb/13/2025,Detached,609840.0,1254.0,3,1:1,Kingston,False,False

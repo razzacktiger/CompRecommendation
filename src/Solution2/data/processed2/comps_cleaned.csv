@@ -1,0 +1,265 @@
+subject_id,comp_id,comp_index,condition,age_years,age_uncertainty,prop_type,city_province,lot_size_sqft,gla_sqft,bedrooms_main,bedrooms_additional,bedrooms_total,bathrooms_full,bathrooms_half,bathrooms_equivalent,sale_price,sale_date,has_lot_size_uncertainty,has_gla_uncertainty,has_additional_bedrooms
+0,0_0,0,,,False,,Kingston ON K7M 6V1,,,,,,,,,,,False,False,False
+0,0_1,1,,,False,,Kingston ON K7M 6X7,,,,,,,,,,,False,False,False
+0,0_2,2,,,False,,Kingston ON K7M 6X6,,,,,,,,,,,False,False,False
+1,1_0,0,,,False,,Porters Lake NS B3E 1P3,,,,,,,,,,,False,False,False
+1,1_1,1,,,False,,East Lawrencetown NS B2Z 1T6,,,,,,,,,,,False,False,False
+1,1_2,2,,,False,,Head of Jeddore NS B0J 1P0,,,,,,,,,,,False,False,False
+2,2_0,0,,,False,,Ayr ON N0B 1E0,,,,,,,,,,,False,False,False
+2,2_1,1,,,False,,Ayr ON N0B 1E0,,,,,,,,,,,False,False,False
+2,2_2,2,,,False,,Heidelberg ON N0B 2M1,,,,,,,,,,,False,False,False
+3,3_0,0,,,False,,Kemptville ON K0G 1J0,,,,,,,,,,,False,False,False
+3,3_1,1,,,False,,Kemptville ON K0G 1J0,,,,,,,,,,,False,False,False
+3,3_2,2,,,False,,Kemptville ON K0G 1J0,,,,,,,,,,,False,False,False
+4,4_0,0,,,False,,Halifax NS B3M 3G7,,,,,,,,,,,False,False,False
+4,4_1,1,,,False,,Halifax NS B3S 1L4,,,,,,,,,,,False,False,False
+4,4_2,2,,,False,,Halifax NS B3M 4X5,,,,,,,,,,,False,False,False
+5,5_0,0,,,False,,Dartmouth NS B2V 2P5,,,,,,,,,,,False,False,False
+5,5_1,1,,,False,,Dartmouth NS B2V 1W3,,,,,,,,,,,False,False,False
+5,5_2,2,,,False,,Dartmouth NS B2V 2C3,,,,,,,,,,,False,False,False
+6,6_0,0,,,False,,East York ON M4G 3G8,,,,,,,,,,,False,False,False
+6,6_1,1,,,False,,East York ON M4G 2M8,,,,,,,,,,,False,False,False
+6,6_2,2,,,False,,Toronto ON M4P 2P5,,,,,,,,,,,False,False,False
+7,7_0,0,,,False,,Stittsville ON K2S 3A1,,,,,,,,,,,False,False,False
+7,7_1,1,,,False,,Stittsville ON K2V 0M8,,,,,,,,,,,False,False,False
+7,7_2,2,,,False,,Stittsville ON K2V 0M7,,,,,,,,,,,False,False,False
+8,8_0,0,,,False,,Halifax NS B3M 4X5,,,,,,,,,,,False,False,False
+8,8_1,1,,,False,,Halifax NS B3N 0A3,,,,,,,,,,,False,False,False
+8,8_2,2,,,False,,Halifax NS B3N 0A3,,,,,,,,,,,False,False,False
+9,9_0,0,,,False,,Chestermere AB T1X 1Y8,,,,,,,,,,,False,False,False
+9,9_1,1,,,False,,Chestermere AB T1X 2S6,,,,,,,,,,,False,False,False
+9,9_2,2,,,False,,Chestermere AB T1X 0Y6,,,,,,,,,,,False,False,False
+10,10_0,0,,,False,,Blind Bay NS B3Z 4C1,,,,,,,,,,,False,False,False
+10,10_1,1,,,False,,Head of St Margarets Bay NS B3Z 2G4,,,,,,,,,,,False,False,False
+10,10_2,2,,,False,,Glen Haven NS B3Z 2W4,,,,,,,,,,,False,False,False
+11,11_0,0,,,False,,Maple ON L6A 3J2,,,,,,,,,,,False,False,False
+11,11_1,1,,,False,,Maple ON L6A 3J6,,,,,,,,,,,False,False,False
+11,11_2,2,,,False,,Maple ON L6A 3C3,,,,,,,,,,,False,False,False
+12,12_0,0,,,False,,Fall River NS B2T 0M2,,,,,,,,,,,False,False,False
+12,12_1,1,,,False,,Bedford NS B4A 3B2,,,,,,,,,,,False,False,False
+12,12_2,2,,,False,,Bedford NS B4A 4E5,,,,,,,,,,,False,False,False
+13,13_0,0,,,False,,Kingston ON K7P 0B2,,,,,,,,,,,False,False,False
+13,13_1,1,,,False,,Kingston ON K7P 0M7,,,,,,,,,,,False,False,False
+13,13_2,2,,,False,,Kingston ON K7M 6W2,,,,,,,,,,,False,False,False
+14,14_0,0,,,False,,Hammonds Plains NS B4B 1T5,,,,,,,,,,,False,False,False
+14,14_1,1,,,False,,Hammonds Plains NS B4B 1S5,,,,,,,,,,,False,False,False
+14,14_2,2,,,False,,Hammonds Plains NS B4B 1W1,,,,,,,,,,,False,False,False
+15,15_0,0,,,False,,Nepean ON K2J 0W8,,,,,,,,,,,False,False,False
+15,15_1,1,,,False,,Nepean ON K2J 5V3,,,,,,,,,,,False,False,False
+15,15_2,2,,,False,,Nepean ON K2J 0L6,,,,,,,,,,,False,False,False
+16,16_0,0,,,False,,Stouffville ON L4A 4K3,,,,,,,,,,,False,False,False
+16,16_1,1,,,False,,Stouffville ON L0H 1G0,,,,,,,,,,,False,False,False
+16,16_2,2,,,False,,Stouffville ON L4A 2G3,,,,,,,,,,,False,False,False
+17,17_0,0,,,False,,Kingston ON K7L 2C7,,,,,,,,,,,False,False,False
+17,17_1,1,,,False,,Kingston ON K7L 3R3,,,,,,,,,,,False,False,False
+17,17_2,2,,,False,,Kingston ON K7K 3T3,,,,,,,,,,,False,False,False
+18,18_0,0,,,False,,Lower Sackville NS B4C 4A5,,,,,,,,,,,False,False,False
+18,18_1,1,,,False,,Lower Sackville NS B4C 4C3,,,,,,,,,,,False,False,False
+18,18_2,2,,,False,,Middle Sackville NS B4E 2L6,,,,,,,,,,,False,False,False
+19,19_0,0,,,False,,Calgary AB T3N 1G6,,,,,,,,,,,False,False,False
+19,19_1,1,,,False,,Calgary AB T3N 1M8,,,,,,,,,,,False,False,False
+19,19_2,2,,,False,,Calgary AB T3N 1X4,,,,,,,,,,,False,False,False
+20,20_0,0,,,False,,Calgary AB T2N 3A1,,,,,,,,,,,False,False,False
+20,20_1,1,,,False,,Calgary AB T2N 0L2,,,,,,,,,,,False,False,False
+20,20_2,2,,,False,,Calgary AB T2N 0P4,,,,,,,,,,,False,False,False
+21,21_0,0,,,False,,Edmonton AB T6X 1P3,,,,,,,,,,,False,False,False
+21,21_1,1,,,False,,Edmonton AB T6X 2G4,,,,,,,,,,,False,False,False
+21,21_2,2,,,False,,Edmonton AB T6W 1Z4,,,,,,,,,,,False,False,False
+22,22_0,0,,,False,,Orléans ON K1W 1H9,,,,,,,,,,,False,False,False
+22,22_1,1,,,False,,Orléans ON K4A 1G3,,,,,,,,,,,False,False,False
+22,22_2,2,,,False,,Orléans ON K4A 1L1,,,,,,,,,,,False,False,False
+23,23_0,0,,,False,,Calgary AB T2R 1E3,,,,,,,,,,,False,False,False
+23,23_1,1,,,False,,Calgary AB T2P 1J3,,,,,,,,,,,False,False,False
+23,23_2,2,,,False,,"Calgary , Alberta, T2G 0H1",,,,,,,,,,,False,False,False
+24,24_0,0,,,False,,Edmonton AB T6W 2H9,,,,,,,,,,,False,False,False
+24,24_1,1,,,False,,Edmonton AB T6W 2J1,,,,,,,,,,,False,False,False
+24,24_2,2,,,False,,Edmonton AB T6W 2G3,,,,,,,,,,,False,False,False
+25,25_0,0,,,False,,Orléans ON K1W 0S4,,,,,,,,,,,False,False,False
+25,25_1,1,,,False,,Orléans ON K1W 0E5,,,,,,,,,,,False,False,False
+25,25_2,2,,,False,,Orléans ON K1W 0C4,,,,,,,,,,,False,False,False
+26,26_0,0,,,False,,Calgary AB T2E 1J1,,,,,,,,,,,False,False,False
+26,26_1,1,,,False,,Calgary AB T2E 1B1,,,,,,,,,,,False,False,False
+26,26_2,2,,,False,,Calgary AB T2E 2X8,,,,,,,,,,,False,False,False
+27,27_0,0,,,False,,Calgary AB T3G 5B3,,,,,,,,,,,False,False,False
+27,27_1,1,,,False,,Calgary AB T3G 0C2,,,,,,,,,,,False,False,False
+27,27_2,2,,,False,,Calgary AB T3G 0C2,,,,,,,,,,,False,False,False
+28,28_0,0,,,False,,Calgary AB T3G 5Z4,,,,,,,,,,,False,False,False
+28,28_1,1,,,False,,Calgary AB T3G 0E1,,,,,,,,,,,False,False,False
+28,28_2,2,,,False,,Calgary AB T3G 0E9,,,,,,,,,,,False,False,False
+29,29_0,0,,,False,,Calgary AB T3M 3H2,,,,,,,,,,,False,False,False
+29,29_1,1,,,False,,Calgary AB T3M 2L3,,,,,,,,,,,False,False,False
+29,29_2,2,,,False,,Calgary AB T3M 1Z8,,,,,,,,,,,False,False,False
+30,30_0,0,,,False,,Mill Cove NS B0J 1T0,,,,,,,,,,,False,False,False
+30,30_1,1,,,False,,Black Point NS B0J 1T0,,,,,,,,,,,False,False,False
+30,30_2,2,,,False,,Blandford NS B0J 1T0,,,,,,,,,,,False,False,False
+31,31_0,0,,,False,,Toronto ON M5J 2S9,,,,,,,,,,,False,False,False
+31,31_1,1,,,False,,Toronto ON M5H 4E6,,,,,,,,,,,False,False,False
+31,31_2,2,,,False,,Toronto ON M5V 3R5,,,,,,,,,,,False,False,False
+32,32_0,0,,,False,,Kanata ON K2K 3H2,,,,,,,,,,,False,False,False
+32,32_1,1,,,False,,Kanata ON K2T 1K1,,,,,,,,,,,False,False,False
+32,32_2,2,,,False,,Kanata ON K2K 2Z5,,,,,,,,,,,False,False,False
+33,33_0,0,,,False,,Mineville NS B2Z 1J8,,,,,,,,,,,False,False,False
+33,33_1,1,,,False,,Gaetz Brook NS B0J 2L0,,,,,,,,,,,False,False,False
+33,33_2,2,,,False,,Lake Echo NS B3E 1M5,,,,,,,,,,,False,False,False
+34,34_0,0,,,False,,Calgary AB T3P 0R5,,,,,,,,,,,False,False,False
+34,34_1,1,,,False,,Calgary AB T3P 1L8,,,,,,,,,,,False,False,False
+34,34_2,2,,,False,,Calgary AB T3R 1Y2,,,,,,,,,,,False,False,False
+35,35_0,0,,,False,,Musquodoboit Harbour NS B0J 2L0,,,,,,,,,,,False,False,False
+35,35_1,1,,,False,,Musquodoboit Harbour NS B0J 2L0,,,,,,,,,,,False,False,False
+35,35_2,2,,,False,,Head of Jeddore NS B0J 1P0,,,,,,,,,,,False,False,False
+36,36_0,0,,,False,,Hubbards NS B0J 1T0,,,,,,,,,,,False,False,False
+36,36_1,1,,,False,,East River Point NS B0J 1T0,,,,,,,,,,,False,False,False
+36,36_2,2,,,False,,Boutiliers Point NS B3Z 1V3,,,,,,,,,,,False,False,False
+37,37_0,0,,,False,,Nepean ON K2G 6G7,,,,,,,,,,,False,False,False
+37,37_1,1,,,False,,Nepean ON K2J 4K9,,,,,,,,,,,False,False,False
+37,37_2,2,,,False,,Nepean ON K2J 4C1,,,,,,,,,,,False,False,False
+38,38_0,0,,,False,,Halifax NS B3N 1M2,,,,,,,,,,,False,False,False
+38,38_1,1,,,False,,Halifax NS B3N 1Z3,,,,,,,,,,,False,False,False
+38,38_2,2,,,False,,Halifax NS B3N 1X7,,,,,,,,,,,False,False,False
+39,39_0,0,,,False,,Dartmouth NS B2Y 2Z1,,,,,,,,,,,False,False,False
+39,39_1,1,,,False,,Dartmouth NS B3A 1X3,,,,,,,,,,,False,False,False
+39,39_2,2,,,False,,Dartmouth NS B2Y 1M1,,,,,,,,,,,False,False,False
+40,40_0,0,,,False,,Eastern Passage NS B3G 1C6,,,,,,,,,,,False,False,False
+40,40_1,1,,,False,,Eastern Passage NS B3G 1S9,,,,,,,,,,,False,False,False
+40,40_2,2,,,False,,Eastern Passage NS B3G 1P2,,,,,,,,,,,False,False,False
+41,41_0,0,,,False,,Halifax NS B3N 3G5,,,,,,,,,,,False,False,False
+41,41_1,1,,,False,,Halifax NS B3N 3H8,,,,,,,,,,,False,False,False
+41,41_2,2,,,False,,Halifax NS B3N 3H1,,,,,,,,,,,False,False,False
+42,42_0,0,,,False,,Dartmouth NS B3A 3T4,,,,,,,,,,,False,False,False
+42,42_1,1,,,False,,Dartmouth NS B3A 2N2,,,,,,,,,,,False,False,False
+42,42_2,2,,,False,,Dartmouth NS B3A 2M2,,,,,,,,,,,False,False,False
+43,43_0,0,,,False,,Ottawa ON K1N 5E7,,,,,,,,,,,False,False,False
+43,43_1,1,,,False,,Ottawa ON K1N 1E6,,,,,,,,,,,False,False,False
+43,43_2,2,,,False,,Ottawa ON K1N 6G8,,,,,,,,,,,False,False,False
+44,44_0,0,,,False,,Ottawa ON K1G 2N9,,,,,,,,,,,False,False,False
+44,44_1,1,,,False,,Ottawa ON K1G 2X8,,,,,,,,,,,False,False,False
+44,44_2,2,,,False,,Ottawa ON K1G 1R2,,,,,,,,,,,False,False,False
+45,45_0,0,,,False,,Halifax NS B3M 1M5,,,,,,,,,,,False,False,False
+45,45_1,1,,,False,,Halifax NS B3M 1M4,,,,,,,,,,,False,False,False
+45,45_2,2,,,False,,Halifax NS B3M 3C8,,,,,,,,,,,False,False,False
+46,46_0,0,,,False,,Calgary AB T2P 1R8,,,,,,,,,,,False,False,False
+46,46_1,1,,,False,,Calgary AB T2R 1C2,,,,,,,,,,,False,False,False
+46,46_2,2,,,False,,Calgary AB T2P 1K7,,,,,,,,,,,False,False,False
+47,47_0,0,,,False,,Nepean ON K2J 6C4,,,,,,,,,,,False,False,False
+47,47_1,1,,,False,,Nepean ON K2J 6X3,,,,,,,,,,,False,False,False
+47,47_2,2,,,False,,Nepean ON K2J 0T8,,,,,,,,,,,False,False,False
+48,48_0,0,,,False,,Port Colborne ON L3K 3A1,,,,,,,,,,,False,False,False
+48,48_1,1,,,False,,Welland ON L3C 6T6,,,,,,,,,,,False,False,False
+48,48_2,2,,,False,,Pelham ON L0S 1E2,,,,,,,,,,,False,False,False
+49,49_0,0,,,False,,Niagara Falls ON L2E 0B8,,,,,,,,,,,False,False,False
+49,49_1,1,,,False,,Welland ON L3C 0J2,,,,,,,,,,,False,False,False
+49,49_2,2,,,False,,Fonthill ON L0S 1E4,,,,,,,,,,,False,False,False
+50,50_0,0,,,False,,Dartmouth NS B2Y 3J7,,,,,,,,,,,False,False,False
+50,50_1,1,,,False,,Dartmouth NS B2Y 3G1,,,,,,,,,,,False,False,False
+50,50_2,2,,,False,,Dartmouth NS B2Y 3X1,,,,,,,,,,,False,False,False
+51,51_0,0,,,False,,Kingston ON K7P 2G3,,,,,,,,,,,False,False,False
+51,51_1,1,,,False,,Kingston ON K7P 2P8,,,,,,,,,,,False,False,False
+51,51_2,2,,,False,,Kingston ON K7P 2R1,,,,,,,,,,,False,False,False
+52,52_0,0,,,False,,Tilbury ON N0P 2L0,,,,,,,,,,,False,False,False
+52,52_1,1,,,False,,Merlin ON N0P 1W0,,,,,,,,,,,False,False,False
+52,52_2,2,,,False,,Chatham ON N7M 5T1,,,,,,,,,,,False,False,False
+53,53_0,0,,,False,,Kingston ON K7K 0E8,,,,,,,,,,,False,False,False
+53,53_1,1,,,False,,Kingston ON K7K 7K1,,,,,,,,,,,False,False,False
+53,53_2,2,,,False,,Kingston ON K7K 7K1,,,,,,,,,,,False,False,False
+54,54_0,0,,,False,,Kingston ON K7K 3Z7,,,,,,,,,,,False,False,False
+54,54_1,1,,,False,,Kingston ON K7K 3W2,,,,,,,,,,,False,False,False
+54,54_2,2,,,False,,Kingston ON K7K 1P5,,,,,,,,,,,False,False,False
+55,55_0,0,,,False,,Kanata ON K2T 0K7,,,,,,,,,,,False,False,False
+55,55_1,1,,,False,,Kanata ON K2T 0K7,,,,,,,,,,,False,False,False
+55,55_2,2,,,False,,Kanata ON K2T 0H8,,,,,,,,,,,False,False,False
+56,56_0,0,,,False,,Orléans ON K4A 0H9,,,,,,,,,,,False,False,False
+56,56_1,1,,,False,,Orléans ON K4A 0W4,,,,,,,,,,,False,False,False
+56,56_2,2,,,False,,Orléans ON K4A 5M1,,,,,,,,,,,False,False,False
+57,57_0,0,,,False,,Halifax NS B3K 5V2,,,,,,,,,,,False,False,False
+57,57_1,1,,,False,,Halifax NS B3K 5K4,,,,,,,,,,,False,False,False
+57,57_2,2,,,False,,Halifax NS B3K 3G6,,,,,,,,,,,False,False,False
+58,58_0,0,,,False,,Atwood ON N0G 1B0,,,,,,,,,,,False,False,False
+58,58_1,1,,,False,,Brussels ON N0G 1H0,,,,,,,,,,,False,False,False
+58,58_2,2,,,False,,Mitchell ON N0K 1N0,,,,,,,,,,,False,False,False
+59,59_0,0,,,False,,Kemptville ON K0G 1J0,,,,,,,,,,,False,False,False
+59,59_1,1,,,False,,Kemptville ON K0G 1J0,,,,,,,,,,,False,False,False
+59,59_2,2,,,False,,Oxford Mills ON K0G 1S0,,,,,,,,,,,False,False,False
+60,60_0,0,,,False,,Gananoque ON K7G 1B3,,,,,,,,,,,False,False,False
+60,60_1,1,,,False,,Gananoque ON K7G 1A2,,,,,,,,,,,False,False,False
+60,60_2,2,,,False,,Gananoque ON K7G 1A7,,,,,,,,,,,False,False,False
+61,61_0,0,,,False,,Gananoque ON K7G 3C6,,,,,,,,,,,False,False,False
+61,61_1,1,,,False,,Gananoque ON K7G 3A4,,,,,,,,,,,False,False,False
+61,61_2,2,,,False,,Gananoque ON K7G 3C6,,,,,,,,,,,False,False,False
+62,62_0,0,,,False,,Calgary AB T3J 5L8,,,,,,,,,,,False,False,False
+62,62_1,1,,,False,,Calgary AB T3J 0N8,,,,,,,,,,,False,False,False
+62,62_2,2,,,False,,Calgary AB T3J 2S5,,,,,,,,,,,False,False,False
+63,63_0,0,,,False,,Calgary AB T3P 1S6,,,,,,,,,,,False,False,False
+63,63_1,1,,,False,,Calgary AB T2Y 0T2,,,,,,,,,,,False,False,False
+63,63_2,2,,,False,,Calgary AB T3K 0R6,,,,,,,,,,,False,False,False
+64,64_0,0,,,False,,Calgary AB T3J 5A8,,,,,,,,,,,False,False,False
+64,64_1,1,,,False,,Calgary AB T3J 5A8,,,,,,,,,,,False,False,False
+64,64_2,2,,,False,,Calgary AB T3J 5A2,,,,,,,,,,,False,False,False
+65,65_0,0,,,False,,Calgary AB T3A 5S6,,,,,,,,,,,False,False,False
+65,65_1,1,,,False,,Calgary AB T3A 5X6,,,,,,,,,,,False,False,False
+65,65_2,2,,,False,,Calgary AB T3A 5V3,,,,,,,,,,,False,False,False
+66,66_0,0,,,False,,Brampton ON L6T 3Z3,,,,,,,,,,,False,False,False
+66,66_1,1,,,False,,Brampton ON L6T 3Z2,,,,,,,,,,,False,False,False
+66,66_2,2,,,False,,Brampton ON L6T 2E7,,,,,,,,,,,False,False,False
+67,67_0,0,,,False,,Calgary AB T2Y 4M8,,,,,,,,,,,False,False,False
+67,67_1,1,,,False,,Calgary AB T2Y 0A2,,,,,,,,,,,False,False,False
+67,67_2,2,,,False,,Calgary AB T2Y 5B1,,,,,,,,,,,False,False,False
+68,68_0,0,,,False,,Lowbanks ON N0A 1K0,,,,,,,,,,,False,False,False
+68,68_1,1,,,False,,Wainfleet ON L0S 1V0,,,,,,,,,,,False,False,False
+68,68_2,2,,,False,,Dunnville ON N1A 2W8,,,,,,,,,,,False,False,False
+69,69_0,0,,,False,,Langdon AB T0J 1X2,,,,,,,,,,,False,False,False
+69,69_1,1,,,False,,Langdon AB T0J 1X1,,,,,,,,,,,False,False,False
+69,69_2,2,,,False,,Langdon AB T0J 1X2,,,,,,,,,,,False,False,False
+70,70_0,0,,,False,,Haldimand ON N1A 2W2,,,,,,,,,,,False,False,False
+70,70_1,1,,,False,,Haldimand ON N1A 2W2,,,,,,,,,,,False,False,False
+70,70_2,2,,,False,,Wainfleet ON L0S 1V0,,,,,,,,,,,False,False,False
+71,71_0,0,,,False,,Amherstburg ON N9V 0C8,,,,,,,,,,,False,False,False
+71,71_1,1,,,False,,Amherstburg ON N9V 2Y7,,,,,,,,,,,False,False,False
+71,71_2,2,,,False,,Amherstburg ON N9V 3R3,,,,,,,,,,,False,False,False
+72,72_0,0,,,False,,Kingston ON K7M 6S7,,,,,,,,,,,False,False,False
+72,72_1,1,,,False,,Kingston ON K7M 0B4,,,,,,,,,,,False,False,False
+72,72_2,2,,,False,,Kingston ON K7M 6A9,,,,,,,,,,,False,False,False
+73,73_0,0,,,False,,Langdon AB T0J 1X3,,,,,,,,,,,False,False,False
+73,73_1,1,,,False,,Langdon AB T0J 1X3,,,,,,,,,,,False,False,False
+73,73_2,2,,,False,,Langdon AB T0J 1X1,,,,,,,,,,,False,False,False
+74,74_0,0,,,False,,Calgary AB T3H 6C8,,,,,,,,,,,False,False,False
+74,74_1,1,,,False,,Calgary AB T3H 0W3,,,,,,,,,,,False,False,False
+74,74_2,2,,,False,,Calgary AB T3H 0Z3,,,,,,,,,,,False,False,False
+75,75_0,0,,,False,,Calgary AB T2Z 5A3,,,,,,,,,,,False,False,False
+75,75_1,1,,,False,,Calgary AB T2Z 0C1,,,,,,,,,,,False,False,False
+75,75_2,2,,,False,,Calgary AB T2Z 0X2,,,,,,,,,,,False,False,False
+76,76_0,0,,,False,,Grand Valley ON L9W 6P4,,,,,,,,,,,False,False,False
+76,76_1,1,,,False,,Grand Valley ON L9W 7S7,,,,,,,,,,,False,False,False
+76,76_2,2,,,False,,Grand Valley ON L9W 7S7,,,,,,,,,,,False,False,False
+77,77_0,0,,,False,,Calgary AB T2T 1G5,,,,,,,,,,,False,False,False
+77,77_1,1,,,False,,Calgary AB T2T 1J3,,,,,,,,,,,False,False,False
+77,77_2,2,,,False,,Calgary AB T2S 2R2,,,,,,,,,,,False,False,False
+78,78_0,0,,,False,,Calgary AB T2Z 2G4,,,,,,,,,,,False,False,False
+78,78_1,1,,,False,,Calgary AB T2Z 2P4,,,,,,,,,,,False,False,False
+78,78_2,2,,,False,,Calgary AB T2J 4S8,,,,,,,,,,,False,False,False
+79,79_0,0,,,False,,Kitchener ON N2E 3Z6,,,,,,,,,,,False,False,False
+79,79_1,1,,,False,,Kitchener ON N2E 3P8,,,,,,,,,,,False,False,False
+79,79_2,2,,,False,,Kitchener ON N2N 3M3,,,,,,,,,,,False,False,False
+80,80_0,0,,,False,,Kingston ON K7K 0G6,,,,,,,,,,,False,False,False
+80,80_1,1,,,False,,Kingston ON K7L 1E5,,,,,,,,,,,False,False,False
+80,80_2,2,,,False,,Kingston ON K7K 4L9,,,,,,,,,,,False,False,False
+81,81_0,0,,,False,,Kingston ON K7K 0G6,,,,,,,,,,,False,False,False
+81,81_1,1,,,False,,Kingston ON K7L 1E5,,,,,,,,,,,False,False,False
+81,81_2,2,,,False,,Kingston ON K7K 4L9,,,,,,,,,,,False,False,False
+82,82_0,0,,,False,,Kingston ON K7K 0G6,,,,,,,,,,,False,False,False
+82,82_1,1,,,False,,Kingston ON K7L 1E5,,,,,,,,,,,False,False,False
+82,82_2,2,,,False,,Kingston ON K7K 4L9,,,,,,,,,,,False,False,False
+83,83_0,0,,,False,,Calgary AB T3K 3V8,,,,,,,,,,,False,False,False
+83,83_1,1,,,False,,Calgary AB T3K 3M5,,,,,,,,,,,False,False,False
+83,83_2,2,,,False,,Calgary AB T3K 4E5,,,,,,,,,,,False,False,False
+84,84_0,0,,,False,,Airdrie AB T4A 1Y6,,,,,,,,,,,False,False,False
+84,84_1,1,,,False,,Airdrie AB T4A 1V2,,,,,,,,,,,False,False,False
+84,84_2,2,,,False,,Airdrie AB T4A 1Y7,,,,,,,,,,,False,False,False
+85,85_0,0,,,False,,Loyalist,,,,,,,,,,,False,False,False
+85,85_1,1,,,False,,Newburgh ON K0K 2S0,,,,,,,,,,,False,False,False
+85,85_2,2,,,False,,Yarker ON K0K 3N0,,,,,,,,,,,False,False,False
+86,86_0,0,,,False,,East Garafraxa ON L9W 6B8,,,,,,,,,,,False,False,False
+86,86_1,1,,,False,,Hillsburgh ON N0B 1Z0,,,,,,,,,,,False,False,False
+86,86_2,2,,,False,,Belwood ON N0B 1J0,,,,,,,,,,,False,False,False
+87,87_0,0,,,False,,Kingston ON K7L 4V3,,,,,,,,,,,False,False,False
+87,87_1,1,,,False,,Joyceville ON K0H 1Y0,,,,,,,,,,,False,False,False
+87,87_2,2,,,False,,Kingston ON K7L 4V3,,,,,,,,,,,False,False,False
