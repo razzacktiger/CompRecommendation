@@ -1,265 +1,265 @@
-subject_id,comp_id,comp_index,condition,age_years,age_uncertainty,prop_type,city_province,lot_size_sqft,gla_sqft,bedrooms_main,bedrooms_additional,bedrooms_total,bathrooms_full,bathrooms_half,bathrooms_equivalent,sale_price,sale_date,has_lot_size_uncertainty,has_gla_uncertainty,has_additional_bedrooms
-0,0_0,0,Excellent,49.0,False,Townhouse,Kingston ON K7M 6V1,,1044.0,3,0,3,2,0,2.0,378900.0,2024-10-25,True,False,False
-0,0_1,1,Fair,49.0,False,Townhouse,Kingston ON K7M 6X7,,1044.0,3,0,3,1,0,1.0,327000.0,2025-02-05,True,False,False
-0,0_2,2,Fair,49.0,False,Townhouse,Kingston ON K7M 6X6,,1044.0,3,0,3,2,0,2.0,315000.0,2025-02-14,True,False,False
-1,1_0,0,Average,11.0,True,Detached,Porters Lake NS B3E 1P3,80212.0,1602.0,3,0,3,2,0,2.0,800000.0,2025-01-16,True,True,False
-1,1_1,1,Good,11.0,True,Detached,East Lawrencetown NS B2Z 1T6,61700.0,2100.0,3,0,3,2,0,2.0,950000.0,2024-12-21,True,True,False
-1,1_2,2,Good,12.0,True,Detached,Head of Jeddore NS B0J 1P0,48200.0,1662.0,2,0,2,2,0,2.0,829900.0,2024-11-23,True,True,False
-2,2_0,0,Excellent,58.0,True,Detached,Ayr ON N0B 1E0,15116.0,2003.0,4,0,4,2,1,2.5,1150000.0,2025-03-26,False,False,False
-2,2_1,1,Excellent,1.0,True,Detached,Ayr ON N0B 1E0,11138.0,2940.0,4,0,4,3,1,3.5,1130000.0,2024-12-24,False,False,False
-2,2_2,2,Average,40.0,True,Detached,Heidelberg ON N0B 2M1,29200.0,2365.0,3,0,3,2,1,2.5,1220000.0,2025-04-16,False,False,False
-3,3_0,0,Fair,7.0,True,Detached,Kemptville ON K0G 1J0,80586.0,1571.0,3,0,3,2,0,2.0,812000.0,2025-02-20,True,False,False
-3,3_1,1,Fair,14.0,True,Detached,Kemptville ON K0G 1J0,54014.4,1610.0,3,0,3,2,1,2.5,855000.0,2024-10-11,True,False,False
-3,3_2,2,Average,49.0,True,Detached,Kemptville ON K0G 1J0,87120.0,1976.0,5,0,5,4,0,4.0,920000.0,2025-02-17,True,False,False
-4,4_0,0,Fair,47.0,True,Condominium,Halifax NS B3M 3G7,,1048.0,2,0,2,1,0,1.0,380000.0,2025-04-15,True,False,False
-4,4_1,1,Average,25.0,True,Condominium,Halifax NS B3S 1L4,,1553.0,2,0,2,2,0,2.0,475000.0,2025-02-18,True,False,False
-4,4_2,2,Excellent,19.0,True,Condominium,Halifax NS B3M 4X5,,1483.0,3,0,3,2,0,2.0,520000.0,2024-12-13,True,False,False
-5,5_0,0,Excellent,36.0,True,Detached,Dartmouth NS B2V 2P5,7726.0,2100.0,4,0,4,2,1,2.5,703850.0,2025-04-14,True,True,False
-5,5_1,1,Average,45.0,True,Detached,Dartmouth NS B2V 1W3,7623.0,1688.0,3,0,3,1,1,1.5,620000.0,2024-12-13,True,True,False
-5,5_2,2,Fair,39.0,True,Detached,Dartmouth NS B2V 2C3,9110.0,2298.0,3,0,3,2,1,2.5,662000.0,2024-11-18,True,True,False
-6,6_0,0,Average,95.0,False,Semi-Detached,East York ON M4G 3G8,2604.0,1306.0,3,0,3,2,0,2.0,1680000.0,2025-03-31,False,False,False
-6,6_1,1,Fair,77.0,False,Semi-Detached,East York ON M4G 2M8,3348.0,1334.0,3,0,3,2,0,2.0,1520000.0,2025-03-23,False,False,False
-6,6_2,2,Average,81.0,False,Semi-Detached,Toronto ON M4P 2P5,1936.0,1120.0,3,0,3,2,0,2.0,1600000.0,2024-12-05,False,False,False
-7,7_0,0,Average,3.0,False,Townhouse,Stittsville ON K2S 3A1,2992.0,1802.0,4,0,4,2,1,2.5,705000.0,2024-12-09,True,False,False
-7,7_1,1,Good,4.0,False,Townhouse,Stittsville ON K2V 0M8,2893.0,2131.0,3,0,3,2,1,2.5,755000.0,2025-03-29,True,False,False
-7,7_2,2,Good,5.0,False,Townhouse,Stittsville ON K2V 0M7,4230.0,1758.0,3,0,3,2,1,2.5,768800.0,2025-03-29,True,False,False
-8,8_0,0,Fair,20.0,True,Condominium,Halifax NS B3M 4X5,,1816.0,2,0,2,2,0,2.0,720000.0,2025-02-24,True,True,False
-8,8_1,1,Excellent,19.0,True,Condominium,Halifax NS B3N 0A3,,2206.0,2,0,2,2,0,2.0,900000.0,2024-11-21,True,True,False
-8,8_2,2,Fair,17.0,True,Condominium,Halifax NS B3N 0A3,,1342.0,2,0,2,2,0,2.0,720000.0,2024-10-18,True,True,False
-9,9_0,0,Good,3.0,False,Detached,Chestermere AB T1X 1Y8,,2367.0,4,0,4,3,0,3.0,860000.0,2025-04-07,True,False,False
-9,9_1,1,Good,1.0,False,Detached,Chestermere AB T1X 2S6,,2614.0,5,0,5,4,0,4.0,890000.0,2025-02-08,False,False,False
-9,9_2,2,Good,7.0,False,Detached,Chestermere AB T1X 0Y6,,2608.0,4,0,4,2,0,2.0,860000.0,2025-01-27,False,False,False
-10,10_0,0,Good,21.0,True,Detached,Blind Bay NS B3Z 4C1,169884.0,2555.0,3,0,3,3,0,3.0,1189500.0,2025-01-25,True,True,False
-10,10_1,1,Good,54.0,True,Detached,Head of St Margarets Bay NS B3Z 2G4,24650.0,1829.0,1,0,1,1,1,1.5,1653000.0,2024-12-19,True,True,False
-10,10_2,2,Good,34.0,True,Detached,Glen Haven NS B3Z 2W4,59396.0,3024.0,3,0,3,2,1,2.5,1800000.0,2024-06-28,True,True,False
-11,11_0,0,Excellent,25.0,False,Semi-Detached,Maple ON L6A 3J2,2433.0,1695.0,3,0,3,2,2,3.0,1105000.0,2025-03-09,False,False,False
-11,11_1,1,Fair,24.0,False,Semi-Detached,Maple ON L6A 3J6,2647.0,1572.0,3,0,3,3,1,3.5,1045000.0,2025-04-02,False,False,False
-11,11_2,2,Excellent,23.0,False,Semi-Detached,Maple ON L6A 3C3,2680.0,1489.0,3,0,3,3,1,3.5,1150000.0,2025-03-04,False,False,False
-12,12_0,0,Excellent,4.0,True,Detached,Fall River NS B2T 0M2,131115.0,2354.0,3,0,3,2,1,2.5,1895000.0,2025-02-21,True,True,False
-12,12_1,1,Excellent,44.0,True,Detached,Bedford NS B4A 3B2,11029.0,2494.0,4,0,4,3,0,3.0,1185000.0,2025-03-21,True,True,False
-12,12_2,2,Excellent,20.0,True,Detached,Bedford NS B4A 4E5,18036.0,3774.0,5,0,5,3,1,3.5,1200000.0,2024-09-20,True,True,False
-13,13_0,0,Fair,13.0,False,Detached,Kingston ON K7P 0B2,5831.0,1805.0,2,2,4,3,0,3.0,797000.0,2025-03-19,True,False,True
-13,13_1,1,Excellent,5.0,False,Detached,Kingston ON K7P 0M7,5900.0,1741.0,3,1,4,3,0,3.0,1095000.0,2024-11-16,True,False,True
-13,13_2,2,Fair,46.0,False,Detached,Kingston ON K7M 6W2,6600.0,2094.0,3,1,4,2,1,2.5,856000.0,2024-11-20,True,False,True
-14,14_0,0,Excellent,25.0,True,Detached,Hammonds Plains NS B4B 1T5,52500.0,3167.0,2,0,2,2,1,2.5,930000.0,2025-04-07,True,True,False
-14,14_1,1,Fair,28.0,True,Detached,Hammonds Plains NS B4B 1S5,50853.0,2343.0,4,0,4,2,1,2.5,692000.0,2025-02-21,True,True,False
-14,14_2,2,Fair,21.0,True,Detached,Hammonds Plains NS B4B 1W1,82700.0,1664.0,3,0,3,2,1,2.5,588000.0,2025-02-14,True,True,False
-15,15_0,0,Average,16.0,True,Detached,Nepean ON K2J 0W8,6196.0,3574.0,4,0,4,4,1,4.5,1435000.0,2025-01-25,True,False,False
-15,15_1,1,Fair,13.0,True,Detached,Nepean ON K2J 5V3,5600.0,3756.0,4,0,4,4,1,4.5,1150000.0,2025-01-31,True,False,False
-15,15_2,2,Fair,18.0,True,Detached,Nepean ON K2J 0L6,5823.0,2442.0,3,0,3,3,1,3.5,1244900.0,2025-02-05,True,False,False
-16,16_0,0,Average,12.0,False,Detached,Stouffville ON L4A 4K3,436863.24,2017.0,3,0,3,3,1,3.5,2580000.0,2025-03-28,False,False,False
-16,16_1,1,Fair,37.0,False,Detached,Stouffville ON L0H 1G0,53143.2,2133.0,3,0,3,2,2,3.0,2430000.0,2024-12-03,False,False,False
-16,16_2,2,Fair,25.0,False,Detached,Stouffville ON L4A 2G3,64033.2,2676.0,4,0,4,4,1,4.5,2200000.0,2024-09-06,False,False,False
-17,17_0,0,Fair,100.0,True,Townhouse,Kingston ON K7L 2C7,2014.0,2250.0,5,0,5,2,1,2.5,890000.0,2025-01-20,True,True,False
-17,17_1,1,Fair,100.0,True,Townhouse,Kingston ON K7L 3R3,1785.0,1750.0,5,0,5,1,1,1.5,770000.0,2025-03-26,True,True,False
-17,17_2,2,Fair,100.0,True,Townhouse,Kingston ON K7K 3T3,986.0,1750.0,6,0,6,2,0,2.0,770000.0,2025-04-07,True,True,False
-18,18_0,0,Average,32.0,False,Detached,Lower Sackville NS B4C 4A5,3400.0,1200.0,3,0,3,1,1,1.5,487000.0,2025-02-21,False,False,False
-18,18_1,1,Average,32.0,False,Detached,Lower Sackville NS B4C 4C3,3719.0,1540.0,3,0,3,1,1,1.5,505000.0,2025-03-27,False,False,False
-18,18_2,2,Average,37.0,False,Detached,Middle Sackville NS B4E 2L6,3148.0,1320.0,3,0,3,1,1,1.5,475000.0,2024-12-17,False,False,False
-19,19_0,0,Good,9.0,False,Detached,Calgary AB T3N 1G6,3067.74,1808.0,3,0,3,2,1,2.5,686000.0,2025-03-20,False,False,False
-19,19_1,1,Good,6.0,False,Detached,Calgary AB T3N 1M8,3035.448,1801.0,3,0,3,2,1,2.5,690000.0,2025-02-12,False,False,False
-19,19_2,2,Good,4.0,False,Detached,Calgary AB T3N 1X4,3379.8959999999997,1640.0,3,0,3,2,1,2.5,680000.0,2025-03-10,False,False,False
-20,20_0,0,Average,73.0,False,Detached,Calgary AB T2N 3A1,5295.888,1011.8159999999999,2,0,2,2,0,2.0,802500.0,2024-11-22,False,False,False
-20,20_1,1,Fair,80.0,False,Detached,Calgary AB T2N 0L2,5414.2919999999995,1011.8159999999999,2,0,2,1,0,1.0,670000.0,2025-01-24,False,False,False
-20,20_2,2,Average,74.0,False,Detached,Calgary AB T2N 0P4,5392.764,839.592,2,0,2,2,0,2.0,810000.0,2024-12-26,False,False,False
-21,21_0,0,Average,10.0,False,Detached,Edmonton AB T6X 1P3,5532.696,2770.0,4,0,4,2,1,2.5,842500.0,2024-11-01,False,False,False
-21,21_1,1,Average,9.0,False,Detached,Edmonton AB T6X 2G4,4628.5199999999995,2556.0,3,0,3,2,1,2.5,844707.0,2024-08-25,False,False,False
-21,21_2,2,Excellent,13.0,False,Detached,Edmonton AB T6W 1Z4,7265.7,3364.0,4,0,4,2,1,2.5,1194500.0,2025-01-24,False,False,False
-22,22_0,0,Fair,27.0,False,Detached,Orléans ON K1W 1H9,5541.0,2596.0,4,0,4,2,1,2.5,942500.0,2025-02-07,True,False,False
-22,22_1,1,Fair,7.0,False,Detached,Orléans ON K4A 1G3,4085.0,3351.0,4,0,4,3,1,3.5,1085000.0,2025-03-31,True,False,False
-22,22_2,2,Excellent,5.0,False,Detached,Orléans ON K4A 1L1,4230.0,3071.0,4,0,4,3,1,3.5,1130000.0,2025-03-08,True,False,False
-23,23_0,0,Fair,13.0,False,High Rise Apartment,Calgary AB T2R 1E3,,965.0,2,0,2,2,0,2.0,517500.0,2025-01-31,False,False,False
-23,23_1,1,Fair,8.0,False,High Rise Apartment,Calgary AB T2P 1J3,,980.69,2,0,2,2,0,2.0,574900.0,2025-02-12,False,False,False
-23,23_2,2,Fair,9.0,False,High Rise Apartment,"Calgary , Alberta, T2G 0H1",,1037.62,2,0,2,2,0,2.0,607500.0,2025-03-27,False,False,False
-24,24_0,0,Average,11.0,False,Detached,Edmonton AB T6W 2H9,2723.292,1425.0,3,0,3,2,1,2.5,441500.0,2024-11-21,False,False,False
-24,24_1,1,Average,9.0,False,Detached,Edmonton AB T6W 2J1,3745.872,1580.0,3,0,3,2,1,2.5,468000.0,2024-10-12,False,False,False
-24,24_2,2,Average,11.0,False,Detached,Edmonton AB T6W 2G3,4370.183999999999,1440.0,3,0,3,2,1,2.5,478000.0,2025-02-27,False,False,False
-25,25_0,0,Excellent,1.0,True,Townhouse,Orléans ON K1W 0S4,1722.0,1569.0,3,0,3,3,1,3.5,635000.0,2025-02-04,True,False,False
-25,25_1,1,Average,14.0,True,Townhouse,Orléans ON K1W 0E5,1941.0,1740.0,3,0,3,2,1,2.5,612500.0,2025-02-21,True,False,False
-25,25_2,2,Excellent,6.0,True,Townhouse,Orléans ON K1W 0C4,2417.0,1515.0,3,0,3,2,1,2.5,632000.0,2025-02-16,True,False,False
-26,26_0,0,Average,72.0,False,Detached,Calgary AB T2E 1J1,5995.548,1065.636,3,0,3,2,0,2.0,760000.0,2025-02-26,False,False,False
-26,26_1,1,Excellent,81.0,False,Detached,Calgary AB T2E 1B1,5995.548,624.312,1,0,1,1,0,1.0,773000.0,2025-01-03,False,False,False
-26,26_2,2,Average,76.0,False,Detached,Calgary AB T2E 2X8,5995.548,947.232,2,0,2,2,0,2.0,650000.0,2025-01-06,False,False,False
-27,27_0,0,Good,22.0,False,Low Rise Apartment,Calgary AB T3G 5B3,,1130.0,2,0,2,2,0,2.0,378900.0,2025-04-04,False,False,False
-27,27_1,1,Good,17.0,False,Low Rise Apartment,Calgary AB T3G 0C2,,950.0,2,0,2,2,0,2.0,328500.0,2025-03-11,False,False,False
-27,27_2,2,Good,17.0,False,Low Rise Apartment,Calgary AB T3G 0C2,,1060.09,2,0,2,2,0,2.0,384000.0,2025-03-12,False,False,False
-28,28_0,0,Good,19.0,False,Detached,Calgary AB T3G 5Z4,7287.227999999999,3067.74,3,0,3,3,1,3.5,1249000.0,2024-12-09,False,False,False
-28,28_1,1,Good,12.0,False,Detached,Calgary AB T3G 0E1,5511.168,2583.3599999999997,3,0,3,3,1,3.5,1235000.0,2025-01-16,False,False,False
-28,28_2,2,Excellent,2.0,False,Detached,Calgary AB T3G 0E9,5877.143999999999,2475.72,4,0,4,3,0,3.0,1175000.0,2025-03-18,False,False,False
-29,29_0,0,Good,5.0,False,Condominium,Calgary AB T3M 3H2,,934.0,2,0,2,2,0,2.0,378000.0,2025-04-03,False,False,False
-29,29_1,1,Good,10.0,False,Condominium,Calgary AB T3M 2L3,,881.0,2,0,2,2,0,2.0,390000.0,2025-02-13,False,False,False
-29,29_2,2,Fair,10.0,False,Condominium,Calgary AB T3M 1Z8,,875.0,2,0,2,2,0,2.0,344000.0,2025-03-15,False,False,False
-30,30_0,0,Good,4.0,True,Detached,Mill Cove NS B0J 1T0,51836.0,1288.0,3,0,3,2,0,2.0,550000.0,2025-02-21,True,True,False
-30,30_1,1,Good,1.0,True,Detached,Black Point NS B0J 1T0,67188.0,1211.0,3,0,3,2,0,2.0,649000.0,2025-01-10,True,True,False
-30,30_2,2,Average,44.0,True,Detached,Blandford NS B0J 1T0,93131.0,1085.0,3,0,3,1,0,1.0,620000.0,2024-10-25,True,True,False
-31,31_0,0,Average,36.0,False,High Rise Apartment,Toronto ON M5J 2S9,,1340.0,2,1,3,2,0,2.0,970000.0,2025-02-04,False,False,True
-31,31_1,1,Excellent,12.0,False,High Rise Apartment,Toronto ON M5H 4E6,,853.0,2,0,2,2,0,2.0,785000.0,2025-03-06,False,False,False
-31,31_2,2,Excellent,23.0,False,High Rise Apartment,Toronto ON M5V 3R5,,1043.0,2,1,3,2,0,2.0,920000.0,2025-02-27,False,False,True
-32,32_0,0,Good,22.0,False,Townhouse,Kanata ON K2K 3H2,4014.0,1470.0,2,0,2,3,0,3.0,900000.0,2024-09-25,True,False,False
-32,32_1,1,Fair,23.0,False,Townhouse,Kanata ON K2T 1K1,4485.0,1465.0,2,0,2,2,0,2.0,740000.0,2025-03-24,True,False,False
-32,32_2,2,Average,25.0,False,Townhouse,Kanata ON K2K 2Z5,4842.0,1475.0,3,0,3,3,0,3.0,790000.0,2025-04-04,True,False,False
-33,33_0,0,Fair,42.0,True,Detached,Mineville NS B2Z 1J8,28176.0,1693.0,4,0,4,1,1,1.5,525000.0,2025-01-17,True,True,False
-33,33_1,1,Average,80.0,True,Detached,Gaetz Brook NS B0J 2L0,21446.0,1100.0,3,0,3,2,0,2.0,420000.0,2024-12-13,True,True,False
-33,33_2,2,Average,39.0,True,Detached,Lake Echo NS B3E 1M5,24343.0,2402.0,4,0,4,2,0,2.0,585000.0,2024-09-23,True,True,False
-34,34_0,0,Average,3.0,False,Detached,Calgary AB T3P 0R5,4197.96,2508.0119999999997,3,0,3,3,1,3.5,1038888.0,2025-02-18,False,False,False
-34,34_1,1,Fair,4.0,False,Detached,Calgary AB T3P 1L8,4133.376,2669.4719999999998,5,0,5,4,0,4.0,1020000.0,2025-04-03,False,False,False
-34,34_2,2,Average,4.0,False,Detached,Calgary AB T3R 1Y2,3584.412,2411.136,4,0,4,2,1,2.5,1005000.0,2025-03-04,False,False,False
-35,35_0,0,Excellent,8.0,False,Detached,Musquodoboit Harbour NS B0J 2L0,40000.0,1382.0,2,0,2,1,0,1.0,599000.0,2025-03-29,True,True,False
-35,35_1,1,Fair,27.0,False,Detached,Musquodoboit Harbour NS B0J 2L0,32393.0,1182.0,3,0,3,2,0,2.0,500000.0,2025-02-06,True,True,False
-35,35_2,2,Fair,30.0,False,Detached,Head of Jeddore NS B0J 1P0,48085.0,864.0,2,0,2,1,0,1.0,429900.0,2024-10-18,True,True,False
-36,36_0,0,Excellent,64.0,True,Detached,Hubbards NS B0J 1T0,8600.0,1138.0,3,0,3,1,0,1.0,375000.0,2025-03-28,True,False,False
-36,36_1,1,Average,38.0,True,Detached,East River Point NS B0J 1T0,21730.0,1092.0,3,0,3,1,0,1.0,348500.0,2024-12-31,True,False,False
-36,36_2,2,Average,65.0,True,Detached,Boutiliers Point NS B3Z 1V3,67082.0,889.0,2,0,2,1,0,1.0,375000.0,2024-10-18,True,False,False
-37,37_0,0,Average,30.0,True,Detached,Nepean ON K2G 6G7,2841.0,1688.0,3,0,3,2,1,2.5,725000.0,2025-03-16,True,False,False
-37,37_1,1,Average,29.0,True,Detached,Nepean ON K2J 4K9,3907.0,1453.0,3,0,3,1,1,1.5,650000.0,2025-03-27,True,False,False
-37,37_2,2,Average,32.0,True,Detached,Nepean ON K2J 4C1,3984.0,1944.0,3,0,3,3,1,3.5,759500.0,2025-04-04,True,False,False
-38,38_0,0,Average,65.0,True,Detached,Halifax NS B3N 1M2,22489.0,1374.0,3,0,3,1,0,1.0,845000.0,2024-12-20,True,True,False
-38,38_1,1,Average,69.0,True,Detached,Halifax NS B3N 1Z3,7000.0,1060.0,3,0,3,1,0,1.0,702000.0,2024-12-03,True,True,False
-38,38_2,2,Fair,72.0,True,Detached,Halifax NS B3N 1X7,14738.0,1921.0,4,0,4,2,0,2.0,888000.0,2024-09-21,True,True,False
-39,39_0,0,Excellent,102.0,True,Duplex,Dartmouth NS B2Y 2Z1,3796.0,1560.0,3,0,3,3,0,3.0,951000.0,2025-03-31,True,True,False
-39,39_1,1,Average,102.0,True,Detached,Dartmouth NS B3A 1X3,6500.0,1856.0,3,0,3,1,1,1.5,908000.0,2025-02-19,True,True,False
-39,39_2,2,Fair,95.0,True,Duplex,Dartmouth NS B2Y 1M1,4000.0,2302.0,3,0,3,2,0,2.0,782500.0,2024-05-18,True,True,False
-40,40_0,0,Fair,38.0,True,Semi-Detached,Eastern Passage NS B3G 1C6,4641.0,1250.0,3,0,3,1,1,1.5,320000.0,2025-01-13,True,True,False
-40,40_1,1,Excellent,21.0,True,Semi-Detached,Eastern Passage NS B3G 1S9,3238.0,1403.0,3,0,3,2,0,2.0,370000.0,2024-10-18,True,True,False
-40,40_2,2,Average,28.0,True,Semi-Detached,Eastern Passage NS B3G 1P2,3426.0,1281.0,3,0,3,1,1,1.5,367000.0,2024-10-16,True,True,False
-41,41_0,0,Average,22.0,True,Detached,Halifax NS B3N 3G5,5058.0,1920.0,3,0,3,2,1,2.5,680000.0,2025-03-25,True,True,False
-41,41_1,1,Average,18.0,True,Detached,Halifax NS B3N 3H8,4429.0,1834.0,4,0,4,2,1,2.5,678000.0,2025-01-24,True,True,False
-41,41_2,2,Excellent,22.0,True,Detached,Halifax NS B3N 3H1,4359.0,1353.0,3,0,3,2,1,2.5,600000.0,2024-11-16,True,True,False
-42,42_0,0,Average,70.0,True,Detached,Dartmouth NS B3A 3T4,4343.0,1879.0,4,0,4,1,1,1.5,787000.0,2025-04-07,True,True,False
-42,42_1,1,Excellent,71.0,True,Detached,Dartmouth NS B3A 2N2,5700.0,1892.0,4,0,4,2,0,2.0,780000.0,2025-02-17,True,True,False
-42,42_2,2,Fair,51.0,True,Detached,Dartmouth NS B3A 2M2,7370.0,1531.0,3,0,3,1,1,1.5,708000.0,2024-11-20,True,True,False
-43,43_0,0,Excellent,118.0,True,Townhouse,Ottawa ON K1N 5E7,1221.0,1582.0,3,0,3,2,0,2.0,1194900.0,2025-01-31,True,False,False
-43,43_1,1,Fair,29.0,True,Townhouse,Ottawa ON K1N 1E6,2985.0,1823.0,2,0,2,2,0,2.0,922500.0,2024-08-14,True,False,False
-43,43_2,2,Average,1867.0,True,Townhouse,Ottawa ON K1N 6G8,2449.0,3336.0,5,0,5,3,1,3.5,1247000.0,2025-07-15,True,False,False
-44,44_0,0,Average,64.0,True,Detached,Ottawa ON K1G 2N9,5300.0,1109.0,3,0,3,2,0,2.0,550000.0,2025-03-06,True,False,False
-44,44_1,1,Average,65.0,True,Detached,Ottawa ON K1G 2X8,7008.0,1313.0,3,0,3,2,0,2.0,615000.0,2025-01-10,True,False,False
-44,44_2,2,Excellent,69.0,True,Detached,Ottawa ON K1G 1R2,5039.0,1204.0,3,0,3,1,1,1.5,656000.0,2025-04-14,True,False,False
-45,45_0,0,Excellent,55.0,False,Condominium,Halifax NS B3M 1M5,,1386.0,4,0,4,1,1,1.5,433000.0,2025-03-06,False,False,False
-45,45_1,1,Fair,55.0,False,Condominium,Halifax NS B3M 1M4,,1386.0,3,0,3,1,1,1.5,405000.0,2025-02-26,False,False,False
-45,45_2,2,Excellent,51.0,False,Condominium,Halifax NS B3M 3C8,,1366.0,4,0,4,1,1,1.5,450000.0,2024-07-18,False,False,False
-46,46_0,0,Average,1.0,False,High Rise Apartment,Calgary AB T2P 1R8,,512.09,1,0,1,1,0,1.0,405000.0,2025-03-28,False,False,False
-46,46_1,1,Fair,6.0,False,High Rise Apartment,Calgary AB T2R 1C2,,552.87,1,0,1,1,0,1.0,412500.0,2025-04-09,False,False,False
-46,46_2,2,Fair,7.0,False,High Rise Apartment,Calgary AB T2P 1K7,,558.27,1,0,1,1,0,1.0,385000.0,2025-02-27,False,False,False
-47,47_0,0,Average,9.0,True,Detached,Nepean ON K2J 6C4,2928.0,1919.0,3,0,3,2,1,2.5,750000.0,2025-03-05,True,False,False
-47,47_1,1,Average,2.0,True,Detached,Nepean ON K2J 6X3,2440.0,1746.0,3,0,3,2,1,2.5,715000.0,2025-02-26,True,False,False
-47,47_2,2,Fair,16.0,True,Detached,Nepean ON K2J 0T8,2786.0,1993.0,3,0,3,3,1,3.5,779000.0,2025-04-14,True,False,False
-48,48_0,0,Average,105.0,False,Duplex,Port Colborne ON L3K 3A1,4800.0,2185.0,4,0,4,2,0,2.0,573000.0,2025-02-24,True,False,False
-48,48_1,1,Excellent,39.0,False,Duplex,Welland ON L3C 6T6,3200.0,2054.0,5,0,5,2,0,2.0,570000.0,2024-12-12,True,False,False
-48,48_2,2,Average,97.0,False,Duplex,Pelham ON L0S 1E2,12000.0,1962.0,4,0,4,2,0,2.0,645000.0,2024-12-09,True,False,False
-49,49_0,0,Fair,1.0,True,Townhouse,Niagara Falls ON L2E 0B8,,1600.0,4,0,4,2,1,2.5,655000.0,2025-03-26,True,False,False
-49,49_1,1,Fair,2.0,True,Townhouse,Welland ON L3C 0J2,,1400.0,3,0,3,2,1,2.5,520000.0,2025-04-03,True,False,False
-49,49_2,2,Excellent,4.0,False,Townhouse,Fonthill ON L0S 1E4,,1675.0,3,0,3,2,1,2.5,715000.0,2025-04-16,True,False,False
-50,50_0,0,Excellent,70.0,True,Detached,Dartmouth NS B2Y 3J7,8799.0,1303.0,3,0,3,1,0,1.0,547500.0,2025-02-28,True,True,False
-50,50_1,1,Fair,59.0,True,Detached,Dartmouth NS B2Y 3G1,10030.0,1215.0,3,0,3,1,0,1.0,441200.0,2025-01-31,True,True,False
-50,50_2,2,Excellent,79.0,True,Detached,Dartmouth NS B2Y 3X1,6500.0,1004.0,3,0,3,1,0,1.0,431000.0,2024-11-08,True,True,False
-51,51_0,0,Average,36.0,False,Detached,Kingston ON K7P 2G3,6600.0,2617.0,4,0,4,3,1,3.5,757750.0,2025-01-30,True,False,False
-51,51_1,1,Fair,36.0,False,Detached,Kingston ON K7P 2P8,4995.0,1732.0,3,1,4,1,1,1.5,585000.0,2025-03-05,True,False,True
-51,51_2,2,Fair,36.0,False,Detached,Kingston ON K7P 2R1,4454.0,1221.0,3,0,3,1,1,1.5,544000.0,2025-03-31,True,False,False
-52,52_0,0,Fair,36.0,False,Detached,Tilbury ON N0P 2L0,8320.0,1765.0,3,0,3,1,0,1.0,354500.0,2025-02-20,False,False,False
-52,52_1,1,Excellent,90.0,False,Detached,Merlin ON N0P 1W0,24420.0,1864.0,3,0,3,2,1,2.5,492500.0,2025-01-22,False,False,False
-52,52_2,2,Excellent,115.0,False,Detached,Chatham ON N7M 5T1,,1700.0,3,0,3,1,1,1.5,490000.0,2024-12-16,False,False,False
-53,53_0,0,Average,11.0,False,Detached,Kingston ON K7K 0E8,3214.0,1478.0,3,0,3,1,1,1.5,640000.0,2024-10-21,True,False,False
-53,53_1,1,Excellent,23.0,False,Detached,Kingston ON K7K 7K1,4291.0,1629.0,3,1,4,3,1,3.5,717000.0,2025-03-31,True,False,True
-53,53_2,2,Average,23.0,False,Detached,Kingston ON K7K 7K1,4291.0,1079.0,2,1,3,3,0,3.0,650000.0,2025-02-13,True,False,True
-54,54_0,0,Excellent,100.0,True,Duplex,Kingston ON K7K 3Z7,1900.0,1500.0,4,0,4,2,0,2.0,675000.0,2025-02-12,True,True,False
-54,54_1,1,Excellent,70.0,True,Triplex,Kingston ON K7K 3W2,3825.0,3000.0,5,0,5,3,0,3.0,764900.0,2024-10-29,True,True,False
-54,54_2,2,Average,40.0,True,Duplex,Kingston ON K7K 1P5,3312.0,2000.0,4,0,4,2,0,2.0,617500.0,2025-01-18,True,True,False
-55,55_0,0,Average,9.0,True,Townhouse,Kanata ON K2T 0K7,2450.0,1570.0,3,0,3,2,1,2.5,650000.0,2025-02-21,True,False,False
-55,55_1,1,Average,10.0,True,Townhouse,Kanata ON K2T 0K7,2646.0,1869.0,5,0,5,2,1,2.5,676000.0,2025-02-27,True,False,False
-55,55_2,2,Average,12.0,True,Townhouse,Kanata ON K2T 0H8,1958.0,1830.0,4,0,4,2,1,2.5,706000.0,2025-03-26,True,False,False
-56,56_0,0,Fair,16.0,True,Townhouse,Orléans ON K4A 0H9,2665.0,1551.0,3,0,3,2,1,2.5,627500.0,2025-03-11,True,False,False
-56,56_1,1,Fair,12.0,True,Townhouse,Orléans ON K4A 0W4,4843.0,1873.0,3,0,3,2,1,2.5,700994.0,2025-01-23,True,False,False
-56,56_2,2,Average,3.0,True,Townhouse,Orléans ON K4A 5M1,3582.0,1932.0,4,0,4,2,1,2.5,705000.0,2025-03-26,True,False,False
-57,57_0,0,Average,36.0,False,Condominium,Halifax NS B3K 5V2,,1150.0,3,0,3,2,0,2.0,434500.0,2025-01-17,True,False,False
-57,57_1,1,Average,47.0,False,Condominium,Halifax NS B3K 5K4,,1216.0,3,0,3,2,0,2.0,465000.0,2025-03-28,True,False,False
-57,57_2,2,Average,51.0,False,Condominium,Halifax NS B3K 3G6,,1500.0,3,0,3,2,0,2.0,434523.0,2025-04-14,True,False,False
-58,58_0,0,Average,14.0,True,Detached,Atwood ON N0G 1B0,21344.399999999998,1567.0,2,0,2,2,0,2.0,825000.0,2025-04-06,False,False,False
-58,58_1,1,Average,4.0,True,Detached,Brussels ON N0G 1H0,53143.2,1769.0,2,0,2,2,0,2.0,1128000.0,2025-04-01,False,False,False
-58,58_2,2,Average,1.0,True,Detached,Mitchell ON N0K 1N0,6534.0,1680.0,3,0,3,2,0,2.0,825720.0,2024-12-18,False,False,False
-59,59_0,0,Fair,4.0,True,Detached,Kemptville ON K0G 1J0,4691.0,1814.0,2,0,2,3,0,3.0,925000.0,2024-10-04,True,False,False
-59,59_1,1,Fair,5.0,True,Detached,Kemptville ON K0G 1J0,6842.0,1523.0,2,0,2,3,0,3.0,1100000.0,2024-11-04,True,False,False
-59,59_2,2,Average,3.0,True,Detached,Oxford Mills ON K0G 1S0,48329.0,1988.0,4,0,4,3,0,3.0,1250000.0,2025-04-30,True,False,False
-60,60_0,0,Average,100.0,True,Detached,Gananoque ON K7G 1B3,7200.0,1590.0,2,0,2,1,1,1.5,640000.0,2024-11-29,True,False,False
-60,60_1,1,Fair,100.0,True,Detached,Gananoque ON K7G 1A2,7749.0,3440.0,4,3,7,5,0,5.0,550000.0,2025-04-10,True,False,True
-60,60_2,2,Fair,100.0,True,Detached,Gananoque ON K7G 1A7,12600.0,2336.0,4,0,4,2,0,2.0,600000.0,2024-06-13,True,False,False
-61,61_0,0,Fair,35.0,False,Condominium,Gananoque ON K7G 3C6,,819.0,2,0,2,1,0,1.0,237000.0,2024-12-12,False,False,False
-61,61_1,1,Average,45.0,False,Condominium,Gananoque ON K7G 3A4,,594.0,1,0,1,1,0,1.0,325000.0,2025-02-08,False,False,False
-61,61_2,2,Average,35.0,False,Condominium,Gananoque ON K7G 3C6,,819.0,2,0,2,1,0,1.0,255000.0,2024-07-23,False,False,False
-62,62_0,0,Excellent,19.0,False,Detached,Calgary AB T3J 5L8,3821.22,2537.4,4,0,4,2,2,3.0,827500.0,2025-02-25,False,False,False
-62,62_1,1,Fair,12.0,False,Detached,Calgary AB T3J 0N8,3971.9159999999997,2811.0,4,0,4,4,0,4.0,830000.0,2025-02-28,False,False,False
-62,62_2,2,Average,34.0,False,Detached,Calgary AB T3J 2S5,5263.596,2336.52,5,0,5,3,0,3.0,750000.0,2024-12-19,False,False,False
-63,63_0,0,Excellent,1.0,False,Detached,Calgary AB T3P 1S6,3692.0519999999997,3068.75,5,0,5,4,1,4.5,942000.0,2025-01-07,False,False,False
-63,63_1,1,Excellent,2.0,False,Detached,Calgary AB T2Y 0T2,2583.3599999999997,2206.09,3,0,3,2,1,2.5,840000.0,2025-01-27,False,False,False
-63,63_2,2,Fair,14.0,False,Detached,Calgary AB T3K 0R6,3584.412,1998.7,4,0,4,3,1,3.5,635000.0,2025-03-07,False,False,False
-64,64_0,0,Excellent,22.0,False,Detached,Calgary AB T3J 5A8,4477.824,1259.0,3,0,3,2,0,2.0,647500.0,2025-03-25,False,False,False
-64,64_1,1,Excellent,21.0,False,Detached,Calgary AB T3J 5A8,5317.415999999999,1120.0,1,0,1,1,1,1.5,565000.0,2025-02-18,False,False,False
-64,64_2,2,Average,22.0,False,Detached,Calgary AB T3J 5A2,3326.076,1189.04,3,0,3,2,0,2.0,575000.0,2025-04-25,False,False,False
-65,65_0,0,Good,29.0,False,Detached,Calgary AB T3A 5S6,,1811.0,3,0,3,2,1,2.5,668500.0,2025-04-25,True,False,False
-65,65_1,1,Good,27.0,False,Detached,Calgary AB T3A 5X6,,1554.0,3,0,3,2,1,2.5,650000.0,2025-02-21,True,False,False
-65,65_2,2,Excellent,28.0,False,Detached,Calgary AB T3A 5V3,,1548.0,3,0,3,2,1,2.5,700000.0,2025-02-03,True,False,False
-66,66_0,0,Average,50.0,False,Townhouse,Brampton ON L6T 3Z3,,1178.0,3,0,3,2,1,2.5,675000.0,2025-01-25,False,False,False
-66,66_1,1,Excellent,50.0,False,Townhouse,Brampton ON L6T 3Z2,,1178.0,3,0,3,1,1,1.5,659900.0,2024-12-06,False,False,False
-66,66_2,2,Average,54.0,False,Townhouse,Brampton ON L6T 2E7,,1231.0,4,0,4,2,0,2.0,628000.0,2025-03-10,False,False,False
-67,67_0,0,Excellent,19.0,False,Detached,Calgary AB T2Y 4M8,4628.5199999999995,2540.0,4,0,4,2,1,2.5,890000.0,2025-03-23,False,False,False
-67,67_1,1,Good,19.0,False,Detached,Calgary AB T2Y 0A2,4154.9039999999995,2274.0,3,0,3,2,1,2.5,900000.0,2025-02-14,False,False,False
-67,67_2,2,Excellent,21.0,False,Detached,Calgary AB T2Y 5B1,4789.98,2431.0,3,0,3,2,1,2.5,905000.0,2025-02-08,False,False,False
-68,68_0,0,Fair,63.0,False,Detached,Lowbanks ON N0A 1K0,,1032.0,3,0,3,1,0,1.0,500000.0,2025-02-27,True,False,False
-68,68_1,1,Excellent,75.0,True,Detached,Wainfleet ON L0S 1V0,,1560.0,3,0,3,1,0,1.0,750000.0,2024-12-11,True,False,False
-68,68_2,2,Excellent,55.0,True,Detached,Dunnville ON N1A 2W8,,1700.0,3,0,3,2,0,2.0,830000.0,2025-05-02,True,False,False
-69,69_0,0,Good,20.0,False,Detached,Langdon AB T0J 1X2,9902.88,2352.1,3,0,3,3,0,3.0,770000.0,2025-04-08,False,False,False
-69,69_1,1,Good,27.0,False,Detached,Langdon AB T0J 1X1,10893.168,1560.55,3,0,3,2,1,2.5,652500.0,2025-04-07,False,False,False
-69,69_2,2,Excellent,21.0,False,Detached,Langdon AB T0J 1X2,8708.076,2238.5,4,0,4,2,1,2.5,785000.0,2025-03-24,False,False,False
-70,70_0,0,Excellent,7.0,False,Detached,Haldimand ON N1A 2W2,,2000.0,3,0,3,2,1,2.5,1315000.0,2025-04-14,True,False,False
-70,70_1,1,Average,30.0,True,Detached,Haldimand ON N1A 2W2,,2009.0,3,0,3,2,1,2.5,1195000.0,2025-03-28,True,False,False
-70,70_2,2,Fair,45.0,False,Detached,Wainfleet ON L0S 1V0,,4302.0,4,0,4,3,1,3.5,1410000.0,2024-11-28,True,False,False
-71,71_0,0,Average,52.0,False,Detached,Amherstburg ON N9V 0C8,22500.0,1418.0,3,0,3,2,0,2.0,674000.0,2024-11-17,False,False,False
-71,71_1,1,Average,70.0,False,Detached,Amherstburg ON N9V 2Y7,21582.0,1089.0,6,0,6,2,0,2.0,680000.0,2025-02-11,False,False,False
-71,71_2,2,Average,52.0,False,Detached,Amherstburg ON N9V 3R3,17000.0,2685.0,5,0,5,2,0,2.0,760000.0,2025-03-04,False,False,False
-72,72_0,0,Average,48.0,False,Detached,Kingston ON K7M 6S7,5400.0,1158.0,3,0,3,1,1,1.5,595000.0,2025-02-05,True,False,False
-72,72_1,1,Average,17.0,False,Detached,Kingston ON K7M 0B4,4865.0,1537.0,3,0,3,2,0,2.0,655000.0,2025-04-05,True,False,False
-72,72_2,2,Fair,49.0,False,Detached,Kingston ON K7M 6A9,6900.0,1494.0,4,0,4,2,0,2.0,630000.0,2025-04-14,True,False,False
-73,73_0,0,Fair,17.0,False,Detached,Langdon AB T0J 1X3,7840.0,2342.0,3,0,3,2,1,2.5,826000.0,2025-03-28,False,False,False
-73,73_1,1,Average,11.0,False,Detached,Langdon AB T0J 1X3,8276.0,2700.0,3,0,3,3,1,3.5,930000.0,2025-04-25,False,False,False
-73,73_2,2,Fair,14.0,False,Detached,Langdon AB T0J 1X1,10018.0,1917.0,3,0,3,3,1,3.5,837500.0,2025-04-17,False,False,False
-74,74_0,0,Average,2.0,False,Detached,Calgary AB T3H 6C8,9030.996,4180.0,5,0,5,3,1,3.5,2700000.0,2025-04-30,False,False,False
-74,74_1,1,Fair,11.0,False,Detached,Calgary AB T3H 0W3,10193.508,3436.47,3,0,3,2,1,2.5,1785000.0,2025-03-31,False,False,False
-74,74_2,2,Fair,10.0,False,Detached,Calgary AB T3H 0Z3,8116.056,3236.6,3,0,3,3,1,3.5,1700000.0,2025-04-08,False,False,False
-75,75_0,0,Excellent,11.0,False,Detached,Calgary AB T2Z 5A3,3799.0,2389.0,3,0,3,3,1,3.5,819900.0,2025-04-17,False,False,False
-75,75_1,1,Excellent,18.0,False,Detached,Calgary AB T2Z 0C1,5360.0,2344.0,3,0,3,3,1,3.5,880868.0,2025-02-14,False,False,False
-75,75_2,2,Average,15.0,False,Detached,Calgary AB T2Z 0X2,3961.0,2097.0,3,0,3,3,1,3.5,715000.0,2025-03-13,False,False,False
-76,76_0,0,Good,4.0,False,Detached,Grand Valley ON L9W 6P4,5364.3216,2341.0,3,0,3,2,1,2.5,1028888.0,2025-04-28,False,False,False
-76,76_1,1,Good,2.0,False,Detached,Grand Valley ON L9W 7S7,4683.9845000000005,2432.0,4,0,4,2,1,2.5,1070000.0,2025-02-07,False,False,False
-76,76_2,2,Good,2.0,False,Detached,Grand Valley ON L9W 7S7,5255.7792,1916.0,3,0,3,2,1,2.5,870000.0,2025-03-21,False,False,False
-77,77_0,0,Excellent,52.0,False,Fourplex,Calgary AB T2T 1G5,6243.12,2002.1039999999998,8,0,8,4,2,5.0,1350000.0,2025-04-12,False,False,False
-77,77_1,1,Fair,74.0,False,Fourplex,Calgary AB T2T 1J3,6243.12,2098.98,7,0,7,4,0,4.0,1190000.0,2024-11-08,False,False,False
-77,77_2,2,Average,70.0,False,Fourplex,Calgary AB T2S 2R2,7491.744,1614.6,8,0,8,4,0,4.0,1232000.0,2024-12-06,False,False,False
-78,78_0,0,Fair,33.0,False,Detached,Calgary AB T2Z 2G4,4596.0,1286.0,2,0,2,3,0,3.0,615000.0,2025-04-16,False,False,False
-78,78_1,1,Fair,30.0,False,Detached,Calgary AB T2Z 2P4,4929.0,1514.0,2,0,2,3,0,3.0,669000.0,2025-01-24,False,False,False
-78,78_2,2,Average,49.0,False,Detached,Calgary AB T2J 4S8,5823.0,1401.0,3,0,3,2,1,2.5,600000.0,2024-12-28,False,False,False
-79,79_0,0,Average,22.0,True,Detached,Kitchener ON N2E 3Z6,3054.0,1617.0,4,0,4,2,1,2.5,825000.0,2025-04-11,False,False,False
-79,79_1,1,Average,22.0,True,Detached,Kitchener ON N2E 3P8,3150.0,1625.0,3,0,3,2,1,2.5,840000.0,2025-02-21,False,False,False
-79,79_2,2,Fair,26.0,True,Detached,Kitchener ON N2N 3M3,3653.0,1453.0,3,0,3,1,1,1.5,660000.0,2025-01-02,False,False,False
-80,80_0,0,Good,8.0,True,Condominium,Kingston ON K7K 0G6,,825.0,2,0,2,1,0,1.0,635000.0,2025-03-05,False,False,False
-80,80_1,1,Fair,4.0,False,Condominium,Kingston ON K7L 1E5,,609.0,2,0,2,2,0,2.0,405000.0,2025-02-28,False,False,False
-80,80_2,2,Fair,5.0,False,Condominium,Kingston ON K7K 4L9,,818.0,2,0,2,2,0,2.0,475000.0,2024-11-23,False,False,False
-81,81_0,0,Good,8.0,True,Condominium,Kingston ON K7K 0G6,,825.0,2,0,2,1,0,1.0,635000.0,2025-03-05,False,False,False
-81,81_1,1,Fair,4.0,False,Condominium,Kingston ON K7L 1E5,,609.0,2,0,2,2,0,2.0,405000.0,2025-02-28,False,False,False
-81,81_2,2,Fair,5.0,False,Condominium,Kingston ON K7K 4L9,,818.0,2,0,2,2,0,2.0,475000.0,2024-11-23,False,False,False
-82,82_0,0,Good,8.0,True,Condominium,Kingston ON K7K 0G6,,825.0,2,0,2,1,0,1.0,635000.0,2025-03-05,False,False,False
-82,82_1,1,Fair,4.0,False,Condominium,Kingston ON K7L 1E5,,609.0,2,0,2,2,0,2.0,405000.0,2025-02-28,False,False,False
-82,82_2,2,Fair,5.0,False,Condominium,Kingston ON K7K 4L9,,818.0,2,0,2,2,0,2.0,475000.0,2024-11-23,False,False,False
-83,83_0,0,Average,35.0,False,Detached,Calgary AB T3K 3V8,6802.848,1788.0,3,0,3,2,1,2.5,760000.0,2025-04-11,False,False,False
-83,83_1,1,Average,38.0,False,Detached,Calgary AB T3K 3M5,4004.2079999999996,1682.55,3,0,3,2,1,2.5,722500.0,2025-03-08,False,False,False
-83,83_2,2,Good,33.0,False,Detached,Calgary AB T3K 4E5,6178.536,2100.0,3,0,3,2,1,2.5,888000.0,2025-04-10,False,False,False
-84,84_0,0,Average,46.0,False,Detached,Airdrie AB T4A 1Y6,7674.732,1377.9,3,0,3,2,0,2.0,530000.0,2025-04-02,False,False,False
-84,84_1,1,Average,42.0,False,Detached,Airdrie AB T4A 1V2,4908.384,1071.86,3,0,3,2,0,2.0,518000.0,2025-03-28,False,False,False
-84,84_2,2,Excellent,46.0,False,Detached,Airdrie AB T4A 1Y7,5575.7519999999995,1085.91,3,0,3,2,0,2.0,565000.0,2025-02-25,False,False,False
-85,85_0,0,Excellent,4.0,False,Detached,Loyalist,1306800.0,1844.0,3,1,4,2,0,2.0,830000.0,2025-01-03,True,False,True
-85,85_1,1,Excellent,112.0,False,Detached,Newburgh ON K0K 2S0,500940.0,3790.0,5,0,5,2,1,2.5,890000.0,2025-04-04,True,False,False
-85,85_2,2,Fair,141.0,False,Detached,Yarker ON K0K 3N0,257004.00000000003,2523.0,3,0,3,1,1,1.5,616000.0,2025-04-04,True,False,False
-86,86_0,0,Excellent,50.0,True,Detached,East Garafraxa ON L9W 6B8,94525.2,1240.0,1,0,1,2,0,2.0,1375000.0,2025-04-02,False,False,False
-86,86_1,1,Average,35.0,True,Detached,Hillsburgh ON N0B 1Z0,87120.0,1634.0,3,0,3,2,0,2.0,1490000.0,2025-02-09,False,False,False
-86,86_2,2,Average,31.0,True,Detached,Belwood ON N0B 1J0,435600.0,1610.0,3,0,3,1,0,1.0,1150000.0,2024-11-20,False,False,False
-87,87_0,0,Excellent,105.0,True,Detached,Kingston ON K7L 4V3,37897.2,814.0,2,0,2,1,1,1.5,435000.0,2024-11-20,True,False,False
-87,87_1,1,Fair,60.0,True,Detached,Joyceville ON K0H 1Y0,439956.0,1350.0,3,0,3,1,0,1.0,349000.0,2024-11-18,True,False,False
-87,87_2,2,Average,125.0,True,Detached,Kingston ON K7L 4V3,43560.0,984.0,2,1,3,1,0,1.0,400000.0,2024-10-04,True,False,True
+subject_id,comp_id,comp_index,condition,age_years,age_uncertainty,prop_type,city_province,address,lot_size_sqft,gla_sqft,bedrooms_main,bedrooms_additional,bedrooms_total,bathrooms_full,bathrooms_half,bathrooms_equivalent,sale_price,sale_date,has_lot_size_uncertainty,has_gla_uncertainty,has_additional_bedrooms
+0,0_0,0,Excellent,49.0,False,Townhouse,Kingston ON K7M 6V1,930 Amberdale Cres,,1044.0,3,0,3,2,0,2.0,378900.0,2024-10-25,True,False,False
+0,0_1,1,Fair,49.0,False,Townhouse,Kingston ON K7M 6X7,771 Ashwood Dr,,1044.0,3,0,3,1,0,1.0,327000.0,2025-02-05,True,False,False
+0,0_2,2,Fair,49.0,False,Townhouse,Kingston ON K7M 6X6,995 Amberdale Cres,,1044.0,3,0,3,2,0,2.0,315000.0,2025-02-14,True,False,False
+1,1_0,0,Average,11.0,True,Detached,Porters Lake NS B3E 1P3,64 Deermist Dr,80212.0,1602.0,3,0,3,2,0,2.0,800000.0,2025-01-16,True,True,False
+1,1_1,1,Good,11.0,True,Detached,East Lawrencetown NS B2Z 1T6,85 Oceanic Dr,61700.0,2100.0,3,0,3,2,0,2.0,950000.0,2024-12-21,True,True,False
+1,1_2,2,Good,12.0,True,Detached,Head of Jeddore NS B0J 1P0,270 Quinlan Dr,48200.0,1662.0,2,0,2,2,0,2.0,829900.0,2024-11-23,True,True,False
+2,2_0,0,Excellent,58.0,True,Detached,Ayr ON N0B 1E0,6 Marshall Ave,15116.0,2003.0,4,0,4,2,1,2.5,1150000.0,2025-03-26,False,False,False
+2,2_1,1,Excellent,1.0,True,Detached,Ayr ON N0B 1E0,3219 Roseville Rd,11138.0,2940.0,4,0,4,3,1,3.5,1130000.0,2024-12-24,False,False,False
+2,2_2,2,Average,40.0,True,Detached,Heidelberg ON N0B 2M1,13 James Crt,29200.0,2365.0,3,0,3,2,1,2.5,1220000.0,2025-04-16,False,False,False
+3,3_0,0,Fair,7.0,True,Detached,Kemptville ON K0G 1J0,48 Stonewalk Dr,80586.0,1571.0,3,0,3,2,0,2.0,812000.0,2025-02-20,True,False,False
+3,3_1,1,Fair,14.0,True,Detached,Kemptville ON K0G 1J0,36 Stonewalk Dr,54014.4,1610.0,3,0,3,2,1,2.5,855000.0,2024-10-11,True,False,False
+3,3_2,2,Average,49.0,True,Detached,Kemptville ON K0G 1J0,56 Stonewalk Dr,87120.0,1976.0,5,0,5,4,0,4.0,920000.0,2025-02-17,True,False,False
+4,4_0,0,Fair,47.0,True,Condominium,Halifax NS B3M 3G7,801-105 Dunbrack St,,1048.0,2,0,2,1,0,1.0,380000.0,2025-04-15,True,False,False
+4,4_1,1,Average,25.0,True,Condominium,Halifax NS B3S 1L4,210-40 Regency Park Dr,,1553.0,2,0,2,2,0,2.0,475000.0,2025-02-18,True,False,False
+4,4_2,2,Excellent,19.0,True,Condominium,Halifax NS B3M 4X5,313-79 Bedros Lane,,1483.0,3,0,3,2,0,2.0,520000.0,2024-12-13,True,False,False
+5,5_0,0,Excellent,36.0,True,Detached,Dartmouth NS B2V 2P5,123 Crestwood Pl,7726.0,2100.0,4,0,4,2,1,2.5,703850.0,2025-04-14,True,True,False
+5,5_1,1,Average,45.0,True,Detached,Dartmouth NS B2V 1W3,38 Deerbrooke Dr,7623.0,1688.0,3,0,3,1,1,1.5,620000.0,2024-12-13,True,True,False
+5,5_2,2,Fair,39.0,True,Detached,Dartmouth NS B2V 2C3,18 Becks Way,9110.0,2298.0,3,0,3,2,1,2.5,662000.0,2024-11-18,True,True,False
+6,6_0,0,Average,95.0,False,Semi-Detached,East York ON M4G 3G8,128 Donegall Dr,2604.0,1306.0,3,0,3,2,0,2.0,1680000.0,2025-03-31,False,False,False
+6,6_1,1,Fair,77.0,False,Semi-Detached,East York ON M4G 2M8,142 Donlea Dr,3348.0,1334.0,3,0,3,2,0,2.0,1520000.0,2025-03-23,False,False,False
+6,6_2,2,Average,81.0,False,Semi-Detached,Toronto ON M4P 2P5,138 Banff Rd,1936.0,1120.0,3,0,3,2,0,2.0,1600000.0,2024-12-05,False,False,False
+7,7_0,0,Average,3.0,False,Townhouse,Stittsville ON K2S 3A1,655 Allied Mews,2992.0,1802.0,4,0,4,2,1,2.5,705000.0,2024-12-09,True,False,False
+7,7_1,1,Good,4.0,False,Townhouse,Stittsville ON K2V 0M8,514 Triangle St,2893.0,2131.0,3,0,3,2,1,2.5,755000.0,2025-03-29,True,False,False
+7,7_2,2,Good,5.0,False,Townhouse,Stittsville ON K2V 0M7,225 Lift Lane,4230.0,1758.0,3,0,3,2,1,2.5,768800.0,2025-03-29,True,False,False
+8,8_0,0,Fair,20.0,True,Condominium,Halifax NS B3M 4X5,306-79 Bedros Lane,,1816.0,2,0,2,2,0,2.0,720000.0,2025-02-24,True,True,False
+8,8_1,1,Excellent,19.0,True,Condominium,Halifax NS B3N 0A3,401-11 Springvale Ave,,2206.0,2,0,2,2,0,2.0,900000.0,2024-11-21,True,True,False
+8,8_2,2,Fair,17.0,True,Condominium,Halifax NS B3N 0A3,111-11 Springvale Ave,,1342.0,2,0,2,2,0,2.0,720000.0,2024-10-18,True,True,False
+9,9_0,0,Good,3.0,False,Detached,Chestermere AB T1X 1Y8,118 Sandpiper Pk,,2367.0,4,0,4,3,0,3.0,860000.0,2025-04-07,True,False,False
+9,9_1,1,Good,1.0,False,Detached,Chestermere AB T1X 2S6,19 Sandpiper Bend,,2614.0,5,0,5,4,0,4.0,890000.0,2025-02-08,False,False,False
+9,9_2,2,Good,7.0,False,Detached,Chestermere AB T1X 0Y6,109 Kinniburgh Cove,,2608.0,4,0,4,2,0,2.0,860000.0,2025-01-27,False,False,False
+10,10_0,0,Good,21.0,True,Detached,Blind Bay NS B3Z 4C1,58 Blind Bay Dr,169884.0,2555.0,3,0,3,3,0,3.0,1189500.0,2025-01-25,True,True,False
+10,10_1,1,Good,54.0,True,Detached,Head of St Margarets Bay NS B3Z 2G4,401 Viewmount Dr,24650.0,1829.0,1,0,1,1,1,1.5,1653000.0,2024-12-19,True,True,False
+10,10_2,2,Good,34.0,True,Detached,Glen Haven NS B3Z 2W4,2 Crouchers Point Rd,59396.0,3024.0,3,0,3,2,1,2.5,1800000.0,2024-06-28,True,True,False
+11,11_0,0,Excellent,25.0,False,Semi-Detached,Maple ON L6A 3J2,74 Gianmarco Way,2433.0,1695.0,3,0,3,2,2,3.0,1105000.0,2025-03-09,False,False,False
+11,11_1,1,Fair,24.0,False,Semi-Detached,Maple ON L6A 3J6,20 Del Francesco Way,2647.0,1572.0,3,0,3,3,1,3.5,1045000.0,2025-04-02,False,False,False
+11,11_2,2,Excellent,23.0,False,Semi-Detached,Maple ON L6A 3C3,3 Blackthorn Dr,2680.0,1489.0,3,0,3,3,1,3.5,1150000.0,2025-03-04,False,False,False
+12,12_0,0,Excellent,4.0,True,Detached,Fall River NS B2T 0M2,428 Heddas Way,131115.0,2354.0,3,0,3,2,1,2.5,1895000.0,2025-02-21,True,True,False
+12,12_1,1,Excellent,44.0,True,Detached,Bedford NS B4A 3B2,158 Eaglewood Dr,11029.0,2494.0,4,0,4,3,0,3.0,1185000.0,2025-03-21,True,True,False
+12,12_2,2,Excellent,20.0,True,Detached,Bedford NS B4A 4E5,107 Ahmadi Cres,18036.0,3774.0,5,0,5,3,1,3.5,1200000.0,2024-09-20,True,True,False
+13,13_0,0,Fair,13.0,False,Detached,Kingston ON K7P 0B2,868 Roshan Dr,5831.0,1805.0,2,2,4,3,0,3.0,797000.0,2025-03-19,True,False,True
+13,13_1,1,Excellent,5.0,False,Detached,Kingston ON K7P 0M7,1249 Carfa Cres,5900.0,1741.0,3,1,4,3,0,3.0,1095000.0,2024-11-16,True,False,True
+13,13_2,2,Fair,46.0,False,Detached,Kingston ON K7M 6W2,891 Safari Dr,6600.0,2094.0,3,1,4,2,1,2.5,856000.0,2024-11-20,True,False,True
+14,14_0,0,Excellent,25.0,True,Detached,Hammonds Plains NS B4B 1T5,209 Glen Arbour Way,52500.0,3167.0,2,0,2,2,1,2.5,930000.0,2025-04-07,True,True,False
+14,14_1,1,Fair,28.0,True,Detached,Hammonds Plains NS B4B 1S5,1 Virginia Dr,50853.0,2343.0,4,0,4,2,1,2.5,692000.0,2025-02-21,True,True,False
+14,14_2,2,Fair,21.0,True,Detached,Hammonds Plains NS B4B 1W1,1693 White Hills Run,82700.0,1664.0,3,0,3,2,1,2.5,588000.0,2025-02-14,True,True,False
+15,15_0,0,Average,16.0,True,Detached,Nepean ON K2J 0W8,142 Chenoa Way,6196.0,3574.0,4,0,4,4,1,4.5,1435000.0,2025-01-25,True,False,False
+15,15_1,1,Fair,13.0,True,Detached,Nepean ON K2J 5V3,100 Brambling Way,5600.0,3756.0,4,0,4,4,1,4.5,1150000.0,2025-01-31,True,False,False
+15,15_2,2,Fair,18.0,True,Detached,Nepean ON K2J 0L6,334 Shadehill Cres,5823.0,2442.0,3,0,3,3,1,3.5,1244900.0,2025-02-05,True,False,False
+16,16_0,0,Average,12.0,False,Detached,Stouffville ON L4A 4K3,3948 Vandorf Siderd,436863.24,2017.0,3,0,3,3,1,3.5,2580000.0,2025-03-28,False,False,False
+16,16_1,1,Fair,37.0,False,Detached,Stouffville ON L0H 1G0,11 Union St,53143.2,2133.0,3,0,3,2,2,3.0,2430000.0,2024-12-03,False,False,False
+16,16_2,2,Fair,25.0,False,Detached,Stouffville ON L4A 2G3,9 Elias Snider Crt,64033.2,2676.0,4,0,4,4,1,4.5,2200000.0,2024-09-06,False,False,False
+17,17_0,0,Fair,100.0,True,Townhouse,Kingston ON K7L 2C7,133 William St,2014.0,2250.0,5,0,5,2,1,2.5,890000.0,2025-01-20,True,True,False
+17,17_1,1,Fair,100.0,True,Townhouse,Kingston ON K7L 3R3,297 University Ave,1785.0,1750.0,5,0,5,1,1,1.5,770000.0,2025-03-26,True,True,False
+17,17_2,2,Fair,100.0,True,Townhouse,Kingston ON K7K 3T3,368 Barrie St,986.0,1750.0,6,0,6,2,0,2.0,770000.0,2025-04-07,True,True,False
+18,18_0,0,Average,32.0,False,Detached,Lower Sackville NS B4C 4A5,57 Taleen Dr,3400.0,1200.0,3,0,3,1,1,1.5,487000.0,2025-02-21,False,False,False
+18,18_1,1,Average,32.0,False,Detached,Lower Sackville NS B4C 4C3,4 Victoria Dr,3719.0,1540.0,3,0,3,1,1,1.5,505000.0,2025-03-27,False,False,False
+18,18_2,2,Average,37.0,False,Detached,Middle Sackville NS B4E 2L6,9 Penstock Crt,3148.0,1320.0,3,0,3,1,1,1.5,475000.0,2024-12-17,False,False,False
+19,19_0,0,Good,9.0,False,Detached,Calgary AB T3N 1G6,1059 Cornerstone St NE,3067.74,1808.0,3,0,3,2,1,2.5,686000.0,2025-03-20,False,False,False
+19,19_1,1,Good,6.0,False,Detached,Calgary AB T3N 1M8,312 Redstone Ave NE,3035.448,1801.0,3,0,3,2,1,2.5,690000.0,2025-02-12,False,False,False
+19,19_2,2,Good,4.0,False,Detached,Calgary AB T3N 1X4,90 Corner Ridge Mews NE,3379.8959999999997,1640.0,3,0,3,2,1,2.5,680000.0,2025-03-10,False,False,False
+20,20_0,0,Average,73.0,False,Detached,Calgary AB T2N 3A1,523 35A St NW,5295.888,1011.8159999999999,2,0,2,2,0,2.0,802500.0,2024-11-22,False,False,False
+20,20_1,1,Fair,80.0,False,Detached,Calgary AB T2N 0L2,2425 3 Ave NW,5414.2919999999995,1011.8159999999999,2,0,2,1,0,1.0,670000.0,2025-01-24,False,False,False
+20,20_2,2,Average,74.0,False,Detached,Calgary AB T2N 0P4,2536 4 Ave NW,5392.764,839.592,2,0,2,2,0,2.0,810000.0,2024-12-26,False,False,False
+21,21_0,0,Average,10.0,False,Detached,Edmonton AB T6X 1P3,3116 Winspear Cres SW,5532.696,2770.0,4,0,4,2,1,2.5,842500.0,2024-11-01,False,False,False
+21,21_1,1,Average,9.0,False,Detached,Edmonton AB T6X 2G4,716 40 St SW,4628.5199999999995,2556.0,3,0,3,2,1,2.5,844707.0,2024-08-25,False,False,False
+21,21_2,2,Excellent,13.0,False,Detached,Edmonton AB T6W 1Z4,1253 Adamson Dr SW,7265.7,3364.0,4,0,4,2,1,2.5,1194500.0,2025-01-24,False,False,False
+22,22_0,0,Fair,27.0,False,Detached,Orléans ON K1W 1H9,1959 Montclair Ave,5541.0,2596.0,4,0,4,2,1,2.5,942500.0,2025-02-07,True,False,False
+22,22_1,1,Fair,7.0,False,Detached,Orléans ON K4A 1G3,415 Hepatica Way,4085.0,3351.0,4,0,4,3,1,3.5,1085000.0,2025-03-31,True,False,False
+22,22_2,2,Excellent,5.0,False,Detached,Orléans ON K4A 1L1,156 Aquarium Ave,4230.0,3071.0,4,0,4,3,1,3.5,1130000.0,2025-03-08,True,False,False
+23,23_0,0,Fair,13.0,False,High Rise Apartment,Calgary AB T2R 1E3,1606-1111 10 St SW,,965.0,2,0,2,2,0,2.0,517500.0,2025-01-31,False,False,False
+23,23_1,1,Fair,8.0,False,High Rise Apartment,Calgary AB T2P 1J3,3205-930 6 Ave SW,,980.69,2,0,2,2,0,2.0,574900.0,2025-02-12,False,False,False
+23,23_2,2,Fair,9.0,False,High Rise Apartment,"Calgary , Alberta, T2G 0H1",Unit 2602 - 510 6 Avenue SE,,1037.62,2,0,2,2,0,2.0,607500.0,2025-03-27,False,False,False
+24,24_0,0,Average,11.0,False,Detached,Edmonton AB T6W 2H9,3018 Arthurs Cres SW,2723.292,1425.0,3,0,3,2,1,2.5,441500.0,2024-11-21,False,False,False
+24,24_1,1,Average,9.0,False,Detached,Edmonton AB T6W 2J1,146 Allard Link SW,3745.872,1580.0,3,0,3,2,1,2.5,468000.0,2024-10-12,False,False,False
+24,24_2,2,Average,11.0,False,Detached,Edmonton AB T6W 2G3,645 Allard Blvd SW,4370.183999999999,1440.0,3,0,3,2,1,2.5,478000.0,2025-02-27,False,False,False
+25,25_0,0,Excellent,1.0,True,Townhouse,Orléans ON K1W 0S4,283 Falsetto St,1722.0,1569.0,3,0,3,3,1,3.5,635000.0,2025-02-04,True,False,False
+25,25_1,1,Average,14.0,True,Townhouse,Orléans ON K1W 0E5,783 Percifor Way,1941.0,1740.0,3,0,3,2,1,2.5,612500.0,2025-02-21,True,False,False
+25,25_2,2,Excellent,6.0,True,Townhouse,Orléans ON K1W 0C4,178 Joshua St,2417.0,1515.0,3,0,3,2,1,2.5,632000.0,2025-02-16,True,False,False
+26,26_0,0,Average,72.0,False,Detached,Calgary AB T2E 1J1,924 15 Ave NE,5995.548,1065.636,3,0,3,2,0,2.0,760000.0,2025-02-26,False,False,False
+26,26_1,1,Excellent,81.0,False,Detached,Calgary AB T2E 1B1,632 12 Ave NE,5995.548,624.312,1,0,1,1,0,1.0,773000.0,2025-01-03,False,False,False
+26,26_2,2,Average,76.0,False,Detached,Calgary AB T2E 2X8,3310 Centre St NE,5995.548,947.232,2,0,2,2,0,2.0,650000.0,2025-01-06,False,False,False
+27,27_0,0,Good,22.0,False,Low Rise Apartment,Calgary AB T3G 5B3,2207-950 Arbour Lake Rd NW,,1130.0,2,0,2,2,0,2.0,378900.0,2025-04-04,False,False,False
+27,27_1,1,Good,17.0,False,Low Rise Apartment,Calgary AB T3G 0C2,215-88 Arbour Lake Rd NW,,950.0,2,0,2,2,0,2.0,328500.0,2025-03-11,False,False,False
+27,27_2,2,Good,17.0,False,Low Rise Apartment,Calgary AB T3G 0C2,206-88 Arbour Lake Rd NW,,1060.09,2,0,2,2,0,2.0,384000.0,2025-03-12,False,False,False
+28,28_0,0,Good,19.0,False,Detached,Calgary AB T3G 5Z4,4 Rockcliff Pt NW,7287.227999999999,3067.74,3,0,3,3,1,3.5,1249000.0,2024-12-09,False,False,False
+28,28_1,1,Good,12.0,False,Detached,Calgary AB T3G 0E1,61 Rockford Rd NW,5511.168,2583.3599999999997,3,0,3,3,1,3.5,1235000.0,2025-01-16,False,False,False
+28,28_2,2,Excellent,2.0,False,Detached,Calgary AB T3G 0E9,1 Rock Lake Pt NW,5877.143999999999,2475.72,4,0,4,3,0,3.0,1175000.0,2025-03-18,False,False,False
+29,29_0,0,Good,5.0,False,Condominium,Calgary AB T3M 3H2,216-100 Auburn Meadows Manor SE,,934.0,2,0,2,2,0,2.0,378000.0,2025-04-03,False,False,False
+29,29_1,1,Good,10.0,False,Condominium,Calgary AB T3M 2L3,411-25 Auburn Meadows Ave SE,,881.0,2,0,2,2,0,2.0,390000.0,2025-02-13,False,False,False
+29,29_2,2,Fair,10.0,False,Condominium,Calgary AB T3M 1Z8,105-22 Auburn Bay Link SE,,875.0,2,0,2,2,0,2.0,344000.0,2025-03-15,False,False,False
+30,30_0,0,Good,4.0,True,Detached,Mill Cove NS B0J 1T0,20 Creekside Way,51836.0,1288.0,3,0,3,2,0,2.0,550000.0,2025-02-21,True,True,False
+30,30_1,1,Good,1.0,True,Detached,Black Point NS B0J 1T0,102 Deeridge Rd,67188.0,1211.0,3,0,3,2,0,2.0,649000.0,2025-01-10,True,True,False
+30,30_2,2,Average,44.0,True,Detached,Blandford NS B0J 1T0,5296 Highway 329,93131.0,1085.0,3,0,3,1,0,1.0,620000.0,2024-10-25,True,True,False
+31,31_0,0,Average,36.0,False,High Rise Apartment,Toronto ON M5J 2S9,904-71 Simcoe St,,1340.0,2,1,3,2,0,2.0,970000.0,2025-02-04,False,False,True
+31,31_1,1,Excellent,12.0,False,High Rise Apartment,Toronto ON M5H 4E6,3103-126 Simcoe St,,853.0,2,0,2,2,0,2.0,785000.0,2025-03-06,False,False,False
+31,31_2,2,Excellent,23.0,False,High Rise Apartment,Toronto ON M5V 3R5,2805-361 Front St W,,1043.0,2,1,3,2,0,2.0,920000.0,2025-02-27,False,False,True
+32,32_0,0,Good,22.0,False,Townhouse,Kanata ON K2K 3H2,57 Morenz Terr,4014.0,1470.0,2,0,2,3,0,3.0,900000.0,2024-09-25,True,False,False
+32,32_1,1,Fair,23.0,False,Townhouse,Kanata ON K2T 1K1,90 Kinmount Pvt,4485.0,1465.0,2,0,2,2,0,2.0,740000.0,2025-03-24,True,False,False
+32,32_2,2,Average,25.0,False,Townhouse,Kanata ON K2K 2Z5,41 Coulson Crt,4842.0,1475.0,3,0,3,3,0,3.0,790000.0,2025-04-04,True,False,False
+33,33_0,0,Fair,42.0,True,Detached,Mineville NS B2Z 1J8,1 Partridge Nest Dr,28176.0,1693.0,4,0,4,1,1,1.5,525000.0,2025-01-17,True,True,False
+33,33_1,1,Average,80.0,True,Detached,Gaetz Brook NS B0J 2L0,6547 Highway 7,21446.0,1100.0,3,0,3,2,0,2.0,420000.0,2024-12-13,True,True,False
+33,33_2,2,Average,39.0,True,Detached,Lake Echo NS B3E 1M5,47 Denise Dr,24343.0,2402.0,4,0,4,2,0,2.0,585000.0,2024-09-23,True,True,False
+34,34_0,0,Average,3.0,False,Detached,Calgary AB T3P 0R5,275 Lucas Way NW,4197.96,2508.0119999999997,3,0,3,3,1,3.5,1038888.0,2025-02-18,False,False,False
+34,34_1,1,Fair,4.0,False,Detached,Calgary AB T3P 1L8,18 Carrington Rd NW,4133.376,2669.4719999999998,5,0,5,4,0,4.0,1020000.0,2025-04-03,False,False,False
+34,34_2,2,Average,4.0,False,Detached,Calgary AB T3R 1Y2,85 Sage Hill Cres NW,3584.412,2411.136,4,0,4,2,1,2.5,1005000.0,2025-03-04,False,False,False
+35,35_0,0,Excellent,8.0,False,Detached,Musquodoboit Harbour NS B0J 2L0,5 Willowdale Dr,40000.0,1382.0,2,0,2,1,0,1.0,599000.0,2025-03-29,True,True,False
+35,35_1,1,Fair,27.0,False,Detached,Musquodoboit Harbour NS B0J 2L0,2 Willowdale Dr,32393.0,1182.0,3,0,3,2,0,2.0,500000.0,2025-02-06,True,True,False
+35,35_2,2,Fair,30.0,False,Detached,Head of Jeddore NS B0J 1P0,137 Myers Point Rd,48085.0,864.0,2,0,2,1,0,1.0,429900.0,2024-10-18,True,True,False
+36,36_0,0,Excellent,64.0,True,Detached,Hubbards NS B0J 1T0,46 Highway 3,8600.0,1138.0,3,0,3,1,0,1.0,375000.0,2025-03-28,True,False,False
+36,36_1,1,Average,38.0,True,Detached,East River Point NS B0J 1T0,7730 Highway 329,21730.0,1092.0,3,0,3,1,0,1.0,348500.0,2024-12-31,True,False,False
+36,36_2,2,Average,65.0,True,Detached,Boutiliers Point NS B3Z 1V3,43 Summer Lane,67082.0,889.0,2,0,2,1,0,1.0,375000.0,2024-10-18,True,False,False
+37,37_0,0,Average,30.0,True,Detached,Nepean ON K2G 6G7,393 Stoneway Dr,2841.0,1688.0,3,0,3,2,1,2.5,725000.0,2025-03-16,True,False,False
+37,37_1,1,Average,29.0,True,Detached,Nepean ON K2J 4K9,24 Avonhurst Ave,3907.0,1453.0,3,0,3,1,1,1.5,650000.0,2025-03-27,True,False,False
+37,37_2,2,Average,32.0,True,Detached,Nepean ON K2J 4C1,53 Armagh Way,3984.0,1944.0,3,0,3,3,1,3.5,759500.0,2025-04-04,True,False,False
+38,38_0,0,Average,65.0,True,Detached,Halifax NS B3N 1M2,34 Craigmore Dr,22489.0,1374.0,3,0,3,1,0,1.0,845000.0,2024-12-20,True,True,False
+38,38_1,1,Average,69.0,True,Detached,Halifax NS B3N 1Z3,4 Piers Ave,7000.0,1060.0,3,0,3,1,0,1.0,702000.0,2024-12-03,True,True,False
+38,38_2,2,Fair,72.0,True,Detached,Halifax NS B3N 1X7,44 Walton Dr,14738.0,1921.0,4,0,4,2,0,2.0,888000.0,2024-09-21,True,True,False
+39,39_0,0,Excellent,102.0,True,Duplex,Dartmouth NS B2Y 2Z1,135 Hawthorne St,3796.0,1560.0,3,0,3,3,0,3.0,951000.0,2025-03-31,True,True,False
+39,39_1,1,Average,102.0,True,Detached,Dartmouth NS B3A 1X3,53 Pine St,6500.0,1856.0,3,0,3,1,1,1.5,908000.0,2025-02-19,True,True,False
+39,39_2,2,Fair,95.0,True,Duplex,Dartmouth NS B2Y 1M1,73 Prince Albert Rd,4000.0,2302.0,3,0,3,2,0,2.0,782500.0,2024-05-18,True,True,False
+40,40_0,0,Fair,38.0,True,Semi-Detached,Eastern Passage NS B3G 1C6,1702 Caldwell Rd,4641.0,1250.0,3,0,3,1,1,1.5,320000.0,2025-01-13,True,True,False
+40,40_1,1,Excellent,21.0,True,Semi-Detached,Eastern Passage NS B3G 1S9,49 Peter Crt,3238.0,1403.0,3,0,3,2,0,2.0,370000.0,2024-10-18,True,True,False
+40,40_2,2,Average,28.0,True,Semi-Detached,Eastern Passage NS B3G 1P2,177 Melrose Cres,3426.0,1281.0,3,0,3,1,1,1.5,367000.0,2024-10-16,True,True,False
+41,41_0,0,Average,22.0,True,Detached,Halifax NS B3N 3G5,23 White Dove Crt,5058.0,1920.0,3,0,3,2,1,2.5,680000.0,2025-03-25,True,True,False
+41,41_1,1,Average,18.0,True,Detached,Halifax NS B3N 3H8,45 Ridgestone Crt,4429.0,1834.0,4,0,4,2,1,2.5,678000.0,2025-01-24,True,True,False
+41,41_2,2,Excellent,22.0,True,Detached,Halifax NS B3N 3H1,94 Tamarack Dr,4359.0,1353.0,3,0,3,2,1,2.5,600000.0,2024-11-16,True,True,False
+42,42_0,0,Average,70.0,True,Detached,Dartmouth NS B3A 3T4,36 Mount Pleasant Ave,4343.0,1879.0,4,0,4,1,1,1.5,787000.0,2025-04-07,True,True,False
+42,42_1,1,Excellent,71.0,True,Detached,Dartmouth NS B3A 2N2,2 Lawnsdale Dr,5700.0,1892.0,4,0,4,2,0,2.0,780000.0,2025-02-17,True,True,False
+42,42_2,2,Fair,51.0,True,Detached,Dartmouth NS B3A 2M2,40 Kingston Cres,7370.0,1531.0,3,0,3,1,1,1.5,708000.0,2024-11-20,True,True,False
+43,43_0,0,Excellent,118.0,True,Townhouse,Ottawa ON K1N 5E7,366 Bruyère St,1221.0,1582.0,3,0,3,2,0,2.0,1194900.0,2025-01-31,True,False,False
+43,43_1,1,Fair,29.0,True,Townhouse,Ottawa ON K1N 1E6,2 Brigadier Pvt,2985.0,1823.0,2,0,2,2,0,2.0,922500.0,2024-08-14,True,False,False
+43,43_2,2,Average,1867.0,True,Townhouse,Ottawa ON K1N 6G8,383 Daly Ave,2449.0,3336.0,5,0,5,3,1,3.5,1247000.0,2025-07-15,True,False,False
+44,44_0,0,Average,64.0,True,Detached,Ottawa ON K1G 2N9,1035 Connery Ave,5300.0,1109.0,3,0,3,2,0,2.0,550000.0,2025-03-06,True,False,False
+44,44_1,1,Average,65.0,True,Detached,Ottawa ON K1G 2X8,816 Dickens Ave,7008.0,1313.0,3,0,3,2,0,2.0,615000.0,2025-01-10,True,False,False
+44,44_2,2,Excellent,69.0,True,Detached,Ottawa ON K1G 1R2,826 Hamlet Rd,5039.0,1204.0,3,0,3,1,1,1.5,656000.0,2025-04-14,True,False,False
+45,45_0,0,Excellent,55.0,False,Condominium,Halifax NS B3M 1M5,75 Forestside Cres,,1386.0,4,0,4,1,1,1.5,433000.0,2025-03-06,False,False,False
+45,45_1,1,Fair,55.0,False,Condominium,Halifax NS B3M 1M4,92 Forestside Cres,,1386.0,3,0,3,1,1,1.5,405000.0,2025-02-26,False,False,False
+45,45_2,2,Excellent,51.0,False,Condominium,Halifax NS B3M 3C8,238 Willett St,,1366.0,4,0,4,1,1,1.5,450000.0,2024-07-18,False,False,False
+46,46_0,0,Average,1.0,False,High Rise Apartment,Calgary AB T2P 1R8,1112-730 2 Ave SW,,512.09,1,0,1,1,0,1.0,405000.0,2025-03-28,False,False,False
+46,46_1,1,Fair,6.0,False,High Rise Apartment,Calgary AB T2R 1C2,2104-930 16 Ave SW,,552.87,1,0,1,1,0,1.0,412500.0,2025-04-09,False,False,False
+46,46_2,2,Fair,7.0,False,High Rise Apartment,Calgary AB T2P 1K7,1606-108 Waterfront Crt SW,,558.27,1,0,1,1,0,1.0,385000.0,2025-02-27,False,False,False
+47,47_0,0,Average,9.0,True,Detached,Nepean ON K2J 6C4,111 Damselfly Way,2928.0,1919.0,3,0,3,2,1,2.5,750000.0,2025-03-05,True,False,False
+47,47_1,1,Average,2.0,True,Detached,Nepean ON K2J 6X3,328 Appalachian Cir,2440.0,1746.0,3,0,3,2,1,2.5,715000.0,2025-02-26,True,False,False
+47,47_2,2,Fair,16.0,True,Detached,Nepean ON K2J 0T8,2402 Regatta Ave,2786.0,1993.0,3,0,3,3,1,3.5,779000.0,2025-04-14,True,False,False
+48,48_0,0,Average,105.0,False,Duplex,Port Colborne ON L3K 3A1,226 Kent St,4800.0,2185.0,4,0,4,2,0,2.0,573000.0,2025-02-24,True,False,False
+48,48_1,1,Excellent,39.0,False,Duplex,Welland ON L3C 6T6,168 Windsor St,3200.0,2054.0,5,0,5,2,0,2.0,570000.0,2024-12-12,True,False,False
+48,48_2,2,Average,97.0,False,Duplex,Pelham ON L0S 1E2,1105 Haist Street,12000.0,1962.0,4,0,4,2,0,2.0,645000.0,2024-12-09,True,False,False
+49,49_0,0,Fair,1.0,True,Townhouse,Niagara Falls ON L2E 0B8,21-4552 Portage Rd,,1600.0,4,0,4,2,1,2.5,655000.0,2025-03-26,True,False,False
+49,49_1,1,Fair,2.0,True,Townhouse,Welland ON L3C 0J2,1-150 Broadway,,1400.0,3,0,3,2,1,2.5,520000.0,2025-04-03,True,False,False
+49,49_2,2,Excellent,4.0,False,Townhouse,Fonthill ON L0S 1E4,14-96 Welland Rd,,1675.0,3,0,3,2,1,2.5,715000.0,2025-04-16,True,False,False
+50,50_0,0,Excellent,70.0,True,Detached,Dartmouth NS B2Y 3J7,9 Chittick Ave,8799.0,1303.0,3,0,3,1,0,1.0,547500.0,2025-02-28,True,True,False
+50,50_1,1,Fair,59.0,True,Detached,Dartmouth NS B2Y 3G1,27 Cranston Ave,10030.0,1215.0,3,0,3,1,0,1.0,441200.0,2025-01-31,True,True,False
+50,50_2,2,Excellent,79.0,True,Detached,Dartmouth NS B2Y 3X1,13 Chestnut Lane,6500.0,1004.0,3,0,3,1,0,1.0,431000.0,2024-11-08,True,True,False
+51,51_0,0,Average,36.0,False,Detached,Kingston ON K7P 2G3,1131 Wintergreen Cres,6600.0,2617.0,4,0,4,3,1,3.5,757750.0,2025-01-30,True,False,False
+51,51_1,1,Fair,36.0,False,Detached,Kingston ON K7P 2P8,829 Larchwood Cres,4995.0,1732.0,3,1,4,1,1,1.5,585000.0,2025-03-05,True,False,True
+51,51_2,2,Fair,36.0,False,Detached,Kingston ON K7P 2R1,768 Cataraqui Woods Dr,4454.0,1221.0,3,0,3,1,1,1.5,544000.0,2025-03-31,True,False,False
+52,52_0,0,Fair,36.0,False,Detached,Tilbury ON N0P 2L0,23805 Merlin Rd,8320.0,1765.0,3,0,3,1,0,1.0,354500.0,2025-02-20,False,False,False
+52,52_1,1,Excellent,90.0,False,Detached,Merlin ON N0P 1W0,6129 Seventh Line W,24420.0,1864.0,3,0,3,2,1,2.5,492500.0,2025-01-22,False,False,False
+52,52_2,2,Excellent,115.0,False,Detached,Chatham ON N7M 5T1,6673 Riverview Line,,1700.0,3,0,3,1,1,1.5,490000.0,2024-12-16,False,False,False
+53,53_0,0,Average,11.0,False,Detached,Kingston ON K7K 0E8,1729 Reginald Bart Dr,3214.0,1478.0,3,0,3,1,1,1.5,640000.0,2024-10-21,True,False,False
+53,53_1,1,Excellent,23.0,False,Detached,Kingston ON K7K 7K1,67 Schooner Dr,4291.0,1629.0,3,1,4,3,1,3.5,717000.0,2025-03-31,True,False,True
+53,53_2,2,Average,23.0,False,Detached,Kingston ON K7K 7K1,63 Schooner Dr,4291.0,1079.0,2,1,3,3,0,3.0,650000.0,2025-02-13,True,False,True
+54,54_0,0,Excellent,100.0,True,Duplex,Kingston ON K7K 3Z7,275 Division St,1900.0,1500.0,4,0,4,2,0,2.0,675000.0,2025-02-12,True,True,False
+54,54_1,1,Excellent,70.0,True,Triplex,Kingston ON K7K 3W2,1-21 Cherry St,3825.0,3000.0,5,0,5,3,0,3.0,764900.0,2024-10-29,True,True,False
+54,54_2,2,Average,40.0,True,Duplex,Kingston ON K7K 1P5,46 York St,3312.0,2000.0,4,0,4,2,0,2.0,617500.0,2025-01-18,True,True,False
+55,55_0,0,Average,9.0,True,Townhouse,Kanata ON K2T 0K7,550 Paine Ave,2450.0,1570.0,3,0,3,2,1,2.5,650000.0,2025-02-21,True,False,False
+55,55_1,1,Average,10.0,True,Townhouse,Kanata ON K2T 0K7,524 Paine Ave,2646.0,1869.0,5,0,5,2,1,2.5,676000.0,2025-02-27,True,False,False
+55,55_2,2,Average,12.0,True,Townhouse,Kanata ON K2T 0H8,164 Calvington Ave,1958.0,1830.0,4,0,4,2,1,2.5,706000.0,2025-03-26,True,False,False
+56,56_0,0,Fair,16.0,True,Townhouse,Orléans ON K4A 0H9,965 Linaria Walk,2665.0,1551.0,3,0,3,2,1,2.5,627500.0,2025-03-11,True,False,False
+56,56_1,1,Fair,12.0,True,Townhouse,Orléans ON K4A 0W4,2282 Descartes St,4843.0,1873.0,3,0,3,2,1,2.5,700994.0,2025-01-23,True,False,False
+56,56_2,2,Average,3.0,True,Townhouse,Orléans ON K4A 5M1,958 Socca Cres,3582.0,1932.0,4,0,4,2,1,2.5,705000.0,2025-03-26,True,False,False
+57,57_0,0,Average,36.0,False,Condominium,Halifax NS B3K 5V2,3518 John Parr Dr,,1150.0,3,0,3,2,0,2.0,434500.0,2025-01-17,True,False,False
+57,57_1,1,Average,47.0,False,Condominium,Halifax NS B3K 5K4,5617 Carriageway Cres,,1216.0,3,0,3,2,0,2.0,465000.0,2025-03-28,True,False,False
+57,57_2,2,Average,51.0,False,Condominium,Halifax NS B3K 3G6,3882 Novalea Dr,,1500.0,3,0,3,2,0,2.0,434523.0,2025-04-14,True,False,False
+58,58_0,0,Average,14.0,True,Detached,Atwood ON N0G 1B0,253 Queen Street,21344.399999999998,1567.0,2,0,2,2,0,2.0,825000.0,2025-04-06,False,False,False
+58,58_1,1,Average,4.0,True,Detached,Brussels ON N0G 1H0,84343 Kent Line,53143.2,1769.0,2,0,2,2,0,2.0,1128000.0,2025-04-01,False,False,False
+58,58_2,2,Average,1.0,True,Detached,Mitchell ON N0K 1N0,234 Henry Street,6534.0,1680.0,3,0,3,2,0,2.0,825720.0,2024-12-18,False,False,False
+59,59_0,0,Fair,4.0,True,Detached,Kemptville ON K0G 1J0,189 Blackhorse Dr,4691.0,1814.0,2,0,2,3,0,3.0,925000.0,2024-10-04,True,False,False
+59,59_1,1,Fair,5.0,True,Detached,Kemptville ON K0G 1J0,116 Blackhorse Dr,6842.0,1523.0,2,0,2,3,0,3.0,1100000.0,2024-11-04,True,False,False
+59,59_2,2,Average,3.0,True,Detached,Oxford Mills ON K0G 1S0,13 Tilly Lane,48329.0,1988.0,4,0,4,3,0,3.0,1250000.0,2025-04-30,True,False,False
+60,60_0,0,Average,100.0,True,Detached,Gananoque ON K7G 1B3,261 Arthur St,7200.0,1590.0,2,0,2,1,1,1.5,640000.0,2024-11-29,True,False,False
+60,60_1,1,Fair,100.0,True,Detached,Gananoque ON K7G 1A2,198 South St,7749.0,3440.0,4,3,7,5,0,5.0,550000.0,2025-04-10,True,False,True
+60,60_2,2,Fair,100.0,True,Detached,Gananoque ON K7G 1A7,260 John St,12600.0,2336.0,4,0,4,2,0,2.0,600000.0,2024-06-13,True,False,False
+61,61_0,0,Fair,35.0,False,Condominium,Gananoque ON K7G 3C6,202-550 Talbot Pl,,819.0,2,0,2,1,0,1.0,237000.0,2024-12-12,False,False,False
+61,61_1,1,Average,45.0,False,Condominium,Gananoque ON K7G 3A4,404-610 William St S,,594.0,1,0,1,1,0,1.0,325000.0,2025-02-08,False,False,False
+61,61_2,2,Average,35.0,False,Condominium,Gananoque ON K7G 3C6,305-540 Talbot Pl,,819.0,2,0,2,1,0,1.0,255000.0,2024-07-23,False,False,False
+62,62_0,0,Excellent,19.0,False,Detached,Calgary AB T3J 5L8,286 Taravista Dr NE,3821.22,2537.4,4,0,4,2,2,3.0,827500.0,2025-02-25,False,False,False
+62,62_1,1,Fair,12.0,False,Detached,Calgary AB T3J 0N8,133 Saddlelake Grove NE,3971.9159999999997,2811.0,4,0,4,4,0,4.0,830000.0,2025-02-28,False,False,False
+62,62_2,2,Average,34.0,False,Detached,Calgary AB T3J 2S5,63 Martinview Cres NE,5263.596,2336.52,5,0,5,3,0,3.0,750000.0,2024-12-19,False,False,False
+63,63_0,0,Excellent,1.0,False,Detached,Calgary AB T3P 1S6,116 Ambleside Cres NW,3692.0519999999997,3068.75,5,0,5,4,1,4.5,942000.0,2025-01-07,False,False,False
+63,63_1,1,Excellent,2.0,False,Detached,Calgary AB T2Y 0T2,1134 Alpine Ave SW,2583.3599999999997,2206.09,3,0,3,2,1,2.5,840000.0,2025-01-27,False,False,False
+63,63_2,2,Fair,14.0,False,Detached,Calgary AB T3K 0R6,21 Panora St NW,3584.412,1998.7,4,0,4,3,1,3.5,635000.0,2025-03-07,False,False,False
+64,64_0,0,Excellent,22.0,False,Detached,Calgary AB T3J 5A8,6248 Taralea Pk NE,4477.824,1259.0,3,0,3,2,0,2.0,647500.0,2025-03-25,False,False,False
+64,64_1,1,Excellent,21.0,False,Detached,Calgary AB T3J 5A8,91 Taralea Cres NE,5317.415999999999,1120.0,1,0,1,1,1,1.5,565000.0,2025-02-18,False,False,False
+64,64_2,2,Average,22.0,False,Detached,Calgary AB T3J 5A2,232 Taracove Rd NE,3326.076,1189.04,3,0,3,2,0,2.0,575000.0,2025-04-25,False,False,False
+65,65_0,0,Good,29.0,False,Detached,Calgary AB T3A 5S6,130 Hidden Ranch Rd NW,,1811.0,3,0,3,2,1,2.5,668500.0,2025-04-25,True,False,False
+65,65_1,1,Good,27.0,False,Detached,Calgary AB T3A 5X6,193 Hidden Ranch Hill NW,,1554.0,3,0,3,2,1,2.5,650000.0,2025-02-21,True,False,False
+65,65_2,2,Excellent,28.0,False,Detached,Calgary AB T3A 5V3,10673 Hidden Valley Dr NW,,1548.0,3,0,3,2,1,2.5,700000.0,2025-02-03,True,False,False
+66,66_0,0,Average,50.0,False,Townhouse,Brampton ON L6T 3Z3,42 Sandringham Crt,,1178.0,3,0,3,2,1,2.5,675000.0,2025-01-25,False,False,False
+66,66_1,1,Excellent,50.0,False,Townhouse,Brampton ON L6T 3Z2,41 Lincoln Crt,,1178.0,3,0,3,1,1,1.5,659900.0,2024-12-06,False,False,False
+66,66_2,2,Average,54.0,False,Townhouse,Brampton ON L6T 2E7,238 Fleetwood Cres,,1231.0,4,0,4,2,0,2.0,628000.0,2025-03-10,False,False,False
+67,67_0,0,Excellent,19.0,False,Detached,Calgary AB T2Y 4M8,320 Everglade Cir SW,4628.5199999999995,2540.0,4,0,4,2,1,2.5,890000.0,2025-03-23,False,False,False
+67,67_1,1,Good,19.0,False,Detached,Calgary AB T2Y 0A2,161 Everoak Cir SW,4154.9039999999995,2274.0,3,0,3,2,1,2.5,900000.0,2025-02-14,False,False,False
+67,67_2,2,Excellent,21.0,False,Detached,Calgary AB T2Y 5B1,1845 Evergreen Dr SW,4789.98,2431.0,3,0,3,2,1,2.5,905000.0,2025-02-08,False,False,False
+68,68_0,0,Fair,63.0,False,Detached,Lowbanks ON N0A 1K0,1584 North Shore Dr,,1032.0,3,0,3,1,0,1.0,500000.0,2025-02-27,True,False,False
+68,68_1,1,Excellent,75.0,True,Detached,Wainfleet ON L0S 1V0,12017 Station Rd,,1560.0,3,0,3,1,0,1.0,750000.0,2024-12-11,True,False,False
+68,68_2,2,Excellent,55.0,True,Detached,Dunnville ON N1A 2W8,7167 Rainham Rd,,1700.0,3,0,3,2,0,2.0,830000.0,2025-05-02,True,False,False
+69,69_0,0,Good,20.0,False,Detached,Langdon AB T0J 1X2,6 McIntyre Pl,9902.88,2352.1,3,0,3,3,0,3.0,770000.0,2025-04-08,False,False,False
+69,69_1,1,Good,27.0,False,Detached,Langdon AB T0J 1X1,3 Lloyd Cres NE,10893.168,1560.55,3,0,3,2,1,2.5,652500.0,2025-04-07,False,False,False
+69,69_2,2,Excellent,21.0,False,Detached,Langdon AB T0J 1X2,42 Besse Ave,8708.076,2238.5,4,0,4,2,1,2.5,785000.0,2025-03-24,False,False,False
+70,70_0,0,Excellent,7.0,False,Detached,Haldimand ON N1A 2W2,4 Philips Court,,2000.0,3,0,3,2,1,2.5,1315000.0,2025-04-14,True,False,False
+70,70_1,1,Average,30.0,True,Detached,Haldimand ON N1A 2W2,1376 Bird Road,,2009.0,3,0,3,2,1,2.5,1195000.0,2025-03-28,True,False,False
+70,70_2,2,Fair,45.0,False,Detached,Wainfleet ON L0S 1V0,54025 Wellandport Rd,,4302.0,4,0,4,3,1,3.5,1410000.0,2024-11-28,True,False,False
+71,71_0,0,Average,52.0,False,Detached,Amherstburg ON N9V 0C8,6040 Middle Side Rd,22500.0,1418.0,3,0,3,2,0,2.0,674000.0,2024-11-17,False,False,False
+71,71_1,1,Average,70.0,False,Detached,Amherstburg ON N9V 2Y7,7050 County Road 18,21582.0,1089.0,6,0,6,2,0,2.0,680000.0,2025-02-11,False,False,False
+71,71_2,2,Average,52.0,False,Detached,Amherstburg ON N9V 3R3,737 Concession Rd 2,17000.0,2685.0,5,0,5,2,0,2.0,760000.0,2025-03-04,False,False,False
+72,72_0,0,Average,48.0,False,Detached,Kingston ON K7M 6S7,605 Truedell Rd,5400.0,1158.0,3,0,3,1,1,1.5,595000.0,2025-02-05,True,False,False
+72,72_1,1,Average,17.0,False,Detached,Kingston ON K7M 0B4,355 Boxwood St,4865.0,1537.0,3,0,3,2,0,2.0,655000.0,2025-04-05,True,False,False
+72,72_2,2,Fair,49.0,False,Detached,Kingston ON K7M 6A9,862 Kilburn St,6900.0,1494.0,4,0,4,2,0,2.0,630000.0,2025-04-14,True,False,False
+73,73_0,0,Fair,17.0,False,Detached,Langdon AB T0J 1X3,565 Boulder Creek Cir,7840.0,2342.0,3,0,3,2,1,2.5,826000.0,2025-03-28,False,False,False
+73,73_1,1,Average,11.0,False,Detached,Langdon AB T0J 1X3,264 Boulder Creek Dr,8276.0,2700.0,3,0,3,3,1,3.5,930000.0,2025-04-25,False,False,False
+73,73_2,2,Fair,14.0,False,Detached,Langdon AB T0J 1X1,115 Hanson Dr NE,10018.0,1917.0,3,0,3,3,1,3.5,837500.0,2025-04-17,False,False,False
+74,74_0,0,Average,2.0,False,Detached,Calgary AB T3H 6C8,25 Timberline Crt SW,9030.996,4180.0,5,0,5,3,1,3.5,2700000.0,2025-04-30,False,False,False
+74,74_1,1,Fair,11.0,False,Detached,Calgary AB T3H 0W3,3 Timberline Gate SW,10193.508,3436.47,3,0,3,2,1,2.5,1785000.0,2025-03-31,False,False,False
+74,74_2,2,Fair,10.0,False,Detached,Calgary AB T3H 0Z3,75 Aspen Summit Crt SW,8116.056,3236.6,3,0,3,3,1,3.5,1700000.0,2025-04-08,False,False,False
+75,75_0,0,Excellent,11.0,False,Detached,Calgary AB T2Z 5A3,2224 Brightoncrest Green SE,3799.0,2389.0,3,0,3,3,1,3.5,819900.0,2025-04-17,False,False,False
+75,75_1,1,Excellent,18.0,False,Detached,Calgary AB T2Z 0C1,3 Copperleaf Pk SE,5360.0,2344.0,3,0,3,3,1,3.5,880868.0,2025-02-14,False,False,False
+75,75_2,2,Average,15.0,False,Detached,Calgary AB T2Z 0X2,579 Copperpond Cir SE,3961.0,2097.0,3,0,3,3,1,3.5,715000.0,2025-03-13,False,False,False
+76,76_0,0,Good,4.0,False,Detached,Grand Valley ON L9W 6P4,77 Taylor Dr,5364.3216,2341.0,3,0,3,2,1,2.5,1028888.0,2025-04-28,False,False,False
+76,76_1,1,Good,2.0,False,Detached,Grand Valley ON L9W 7S7,14 Grundy Cres,4683.9845000000005,2432.0,4,0,4,2,1,2.5,1070000.0,2025-02-07,False,False,False
+76,76_2,2,Good,2.0,False,Detached,Grand Valley ON L9W 7S7,13 Grundy Cres,5255.7792,1916.0,3,0,3,2,1,2.5,870000.0,2025-03-21,False,False,False
+77,77_0,0,Excellent,52.0,False,Fourplex,Calgary AB T2T 1G5,1521 27 Ave SW,6243.12,2002.1039999999998,8,0,8,4,2,5.0,1350000.0,2025-04-12,False,False,False
+77,77_1,1,Fair,74.0,False,Fourplex,Calgary AB T2T 1J3,1527 28 Ave SW,6243.12,2098.98,7,0,7,4,0,4.0,1190000.0,2024-11-08,False,False,False
+77,77_2,2,Average,70.0,False,Fourplex,Calgary AB T2S 2R2,4724 Stanley Rd SW,7491.744,1614.6,8,0,8,4,0,4.0,1232000.0,2024-12-06,False,False,False
+78,78_0,0,Fair,33.0,False,Detached,Calgary AB T2Z 2G4,3617 Douglas Woods Hts SE,4596.0,1286.0,2,0,2,3,0,3.0,615000.0,2025-04-16,False,False,False
+78,78_1,1,Fair,30.0,False,Detached,Calgary AB T2Z 2P4,56 Douglasview Rise SE,4929.0,1514.0,2,0,2,3,0,3.0,669000.0,2025-01-24,False,False,False
+78,78_2,2,Average,49.0,False,Detached,Calgary AB T2J 4S8,739 Queensland Dr SE,5823.0,1401.0,3,0,3,2,1,2.5,600000.0,2024-12-28,False,False,False
+79,79_0,0,Average,22.0,True,Detached,Kitchener ON N2E 3Z6,7 Peach Blossom Cres,3054.0,1617.0,4,0,4,2,1,2.5,825000.0,2025-04-11,False,False,False
+79,79_1,1,Average,22.0,True,Detached,Kitchener ON N2E 3P8,61 Bush Clover Cres,3150.0,1625.0,3,0,3,2,1,2.5,840000.0,2025-02-21,False,False,False
+79,79_2,2,Fair,26.0,True,Detached,Kitchener ON N2N 3M3,85 Eastforest Trail,3653.0,1453.0,3,0,3,1,1,1.5,660000.0,2025-01-02,False,False,False
+80,80_0,0,Good,8.0,True,Condominium,Kingston ON K7K 0G6,701-121 Queen St,,825.0,2,0,2,1,0,1.0,635000.0,2025-03-05,False,False,False
+80,80_1,1,Fair,4.0,False,Condominium,Kingston ON K7L 1E5,920-652 Princess St,,609.0,2,0,2,2,0,2.0,405000.0,2025-02-28,False,False,False
+80,80_2,2,Fair,5.0,False,Condominium,Kingston ON K7K 4L9,403-501 Frontenac St,,818.0,2,0,2,2,0,2.0,475000.0,2024-11-23,False,False,False
+81,81_0,0,Good,8.0,True,Condominium,Kingston ON K7K 0G6,701-121 Queen St,,825.0,2,0,2,1,0,1.0,635000.0,2025-03-05,False,False,False
+81,81_1,1,Fair,4.0,False,Condominium,Kingston ON K7L 1E5,920-652 Princess St,,609.0,2,0,2,2,0,2.0,405000.0,2025-02-28,False,False,False
+81,81_2,2,Fair,5.0,False,Condominium,Kingston ON K7K 4L9,403-501 Frontenac St,,818.0,2,0,2,2,0,2.0,475000.0,2024-11-23,False,False,False
+82,82_0,0,Good,8.0,True,Condominium,Kingston ON K7K 0G6,701-121 Queen St,,825.0,2,0,2,1,0,1.0,635000.0,2025-03-05,False,False,False
+82,82_1,1,Fair,4.0,False,Condominium,Kingston ON K7L 1E5,920-652 Princess St,,609.0,2,0,2,2,0,2.0,405000.0,2025-02-28,False,False,False
+82,82_2,2,Fair,5.0,False,Condominium,Kingston ON K7K 4L9,403-501 Frontenac St,,818.0,2,0,2,2,0,2.0,475000.0,2024-11-23,False,False,False
+83,83_0,0,Average,35.0,False,Detached,Calgary AB T3K 3V8,123 Sandringham Pl NW,6802.848,1788.0,3,0,3,2,1,2.5,760000.0,2025-04-11,False,False,False
+83,83_1,1,Average,38.0,False,Detached,Calgary AB T3K 3M5,164 Sandpiper Cir NW,4004.2079999999996,1682.55,3,0,3,2,1,2.5,722500.0,2025-03-08,False,False,False
+83,83_2,2,Good,33.0,False,Detached,Calgary AB T3K 4E5,108 Macewan Park Green NW,6178.536,2100.0,3,0,3,2,1,2.5,888000.0,2025-04-10,False,False,False
+84,84_0,0,Average,46.0,False,Detached,Airdrie AB T4A 1Y6,168 Marquis Pl SE,7674.732,1377.9,3,0,3,2,0,2.0,530000.0,2025-04-02,False,False,False
+84,84_1,1,Average,42.0,False,Detached,Airdrie AB T4A 1V2,1852 Meadowbrook Dr SE,4908.384,1071.86,3,0,3,2,0,2.0,518000.0,2025-03-28,False,False,False
+84,84_2,2,Excellent,46.0,False,Detached,Airdrie AB T4A 1Y7,156 Marquis Pl SE,5575.7519999999995,1085.91,3,0,3,2,0,2.0,565000.0,2025-02-25,False,False,False
+85,85_0,0,Excellent,4.0,False,Detached,Loyalist,1977 Thorpe Road,1306800.0,1844.0,3,1,4,2,0,2.0,830000.0,2025-01-03,True,False,True
+85,85_1,1,Excellent,112.0,False,Detached,Newburgh ON K0K 2S0,116 Dowdle Rd,500940.0,3790.0,5,0,5,2,1,2.5,890000.0,2025-04-04,True,False,False
+85,85_2,2,Fair,141.0,False,Detached,Yarker ON K0K 3N0,3858 County Rd 1 E,257004.00000000003,2523.0,3,0,3,1,1,1.5,616000.0,2025-04-04,True,False,False
+86,86_0,0,Excellent,50.0,True,Detached,East Garafraxa ON L9W 6B8,8 Hilltop Cres,94525.2,1240.0,1,0,1,2,0,2.0,1375000.0,2025-04-02,False,False,False
+86,86_1,1,Average,35.0,True,Detached,Hillsburgh ON N0B 1Z0,5739 Sixth Line,87120.0,1634.0,3,0,3,2,0,2.0,1490000.0,2025-02-09,False,False,False
+86,86_2,2,Average,31.0,True,Detached,Belwood ON N0B 1J0,7167 Seventh Line,435600.0,1610.0,3,0,3,1,0,1.0,1150000.0,2024-11-20,False,False,False
+87,87_0,0,Excellent,105.0,True,Detached,Kingston ON K7L 4V3,2738 Isle of Man Rd,37897.2,814.0,2,0,2,1,1,1.5,435000.0,2024-11-20,True,False,False
+87,87_1,1,Fair,60.0,True,Detached,Joyceville ON K0H 1Y0,2480 Hitchcock Rd,439956.0,1350.0,3,0,3,1,0,1.0,349000.0,2024-11-18,True,False,False
+87,87_2,2,Average,125.0,True,Detached,Kingston ON K7L 4V3,1996 McFarlane Rd,43560.0,984.0,2,1,3,1,0,1.0,400000.0,2024-10-04,True,False,True

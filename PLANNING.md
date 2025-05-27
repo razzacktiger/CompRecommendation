@@ -6,6 +6,7 @@
 - Ensure the system is scalable to handle increasing amounts of data.
 - Benchmark the system on a validation set.
 - Focus on back-end development and machine learning.
+- a featrues to consider for a good ocmparable is location/neighborhood, quality/age/condition structure type, how recent (sold within 90 days?), features (bedroom, bath), living area (gla perhaps) 
 
 ## 2. Core Features & Milestones
 
